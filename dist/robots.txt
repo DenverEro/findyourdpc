@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl everything
+Disallow: /api/
+Disallow: /server/
+Disallow: /.git/
+Disallow: /maintenance/
+
+# Sitemap location
+Sitemap: https://findyourdpc.com/sitemap.xml
