@@ -1,0 +1,5051 @@
+{
+  "metadata": {
+    "total_clinics": 74,
+    "state": "Michigan",
+    "cleaned_at": "2026-02-05",
+    "version": "1.0"
+  },
+  "clinics": [
+    {
+      "_original": {
+        "name": "Authentic Physician Healthcare",
+        "address": "50 S Washington, Suite G, Oxford, MI 48371",
+        "phone": "248-940-1211",
+        "website": "https://authenticdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Rachal Mittleman, MD"
+        ],
+        "specialties": [
+          "Internal Medicine/Pediatrics"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 120,
+        "pricing_notes": "{\"2 People\": \"$220\", \"Family (up to 4/ 2 adults max)\": \"$300\", \"One Person\": \"$120\"}"
+      },
+      "id": "12c68838b517",
+      "name": "Authentic Physician Healthcare",
+      "address": "50 S Washington, Suite G, Oxford, MI 48371",
+      "phone": "(248) 940-1211",
+      "website": "https://authenticdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Rachal Mittleman, MD"
+      ],
+      "specialties": [
+        "Internal Medicine/Pediatrics"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 120,
+      "pricing": {
+        "raw": "{\"2 People\": \"$220\", \"Family (up to 4/ 2 adults max)\": \"$300\", \"One Person\": \"$120\"}",
+        "structured": [
+          {
+            "label": "2 People",
+            "price": 220.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$220"
+          },
+          {
+            "label": "Family (up to 4/ 2 adults max)",
+            "price": 300.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$300"
+          },
+          {
+            "label": "One Person",
+            "price": 120.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$120"
+          }
+        ],
+        "display_lines": [
+          "Age 18-64: $300",
+          "2 People: $220",
+          "One Person: $120"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$120+/mo",
+        "location": "Oxford, MI",
+        "primary_specialty": "Internal Medicine/Pediatrics",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Be Well",
+        "address": "225 MICHIGAN ST NW, Nearby Post Office - No actual office address listed, Grand Rapids, MI 49501",
+        "phone": "269-248-7209",
+        "website": "https://bewellbyangela.com",
+        "practice_type": "Mobile Pure DPC",
+        "physician": [
+          "Angela Coplin, NP"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 49,
+        "pricing_notes": "Ages 25-65: $49"
+      },
+      "id": "35310bee79e5",
+      "name": "Be Well",
+      "address": "225 MICHIGAN ST NW, Nearby Post Office - No actual office address listed, Grand Rapids, MI 49501",
+      "phone": "(269) 248-7209",
+      "website": "https://bewellbyangela.com",
+      "practice_type": "Mobile Pure DPC",
+      "physicians": [
+        "Angela Coplin, NP"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 49,
+      "pricing": {
+        "raw": "Ages 25-65: $49",
+        "structured": [
+          {
+            "label": "Age 25-65",
+            "price": 49.0,
+            "age_min": 25,
+            "age_max": 65,
+            "raw_price": "$49"
+          }
+        ],
+        "display_lines": [
+          "Age 25-65: $49"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$49+/mo",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Benessere Wellness Center",
+        "address": "1181 N Milford Rd, Ste. 207, Milford Charter Twp, MI 48381",
+        "phone": "248-533-6070",
+        "website": "http://www.benesserefamilywellness.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Stacy Waack, PA-C",
+          "Tara Taylor, PA-C"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 19,
+        "pricing_notes": "{\"Age 0-18 with paying adult member\": \"$19\", \"Age 18-26 with paying adult member\": \"$29\", \"Age 18-62\": \"$69\", \"Age 63+\": \"$79\", \"Family of 4\": \"$149\"}"
+      },
+      "id": "8bf5cd29fe78",
+      "name": "Benessere Wellness Center",
+      "address": "1181 N Milford Rd, Ste. 207, Milford Charter Twp, MI 48381",
+      "phone": "(248) 533-6070",
+      "website": "http://www.benesserefamilywellness.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Stacy Waack, PA-C",
+        "Tara Taylor, PA-C"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 19,
+      "pricing": {
+        "raw": "{\"Age 0-18 with paying adult member\": \"$19\", \"Age 18-26 with paying adult member\": \"$29\", \"Age 18-62\": \"$69\", \"Age 63+\": \"$79\", \"Family of 4\": \"$149\"}",
+        "structured": [
+          {
+            "label": "Age 0-18 with paying adult member",
+            "price": 19.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$19"
+          },
+          {
+            "label": "Age 18-26 with paying adult member",
+            "price": 29.0,
+            "age_min": 18,
+            "age_max": 26,
+            "raw_price": "$29"
+          },
+          {
+            "label": "Age 18-62",
+            "price": 69.0,
+            "age_min": 18,
+            "age_max": 62,
+            "raw_price": "$69"
+          },
+          {
+            "label": "Age 63+",
+            "price": 79.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$79"
+          },
+          {
+            "label": "Family of 4",
+            "price": 149.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$149"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $19",
+          "Age 18-26: $29",
+          "Age 18-62: $69",
+          "Age 63+: $79",
+          "Family of 4: $149"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$19+/mo",
+        "location": "Milford Charter Twp, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Betten Integrative Medicine",
+        "address": "8191 Moorsbridge Rd, Suite A, Portage, MI 49024",
+        "phone": "269-312-8170",
+        "website": "https://www.bettenwellness.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Karen Betten, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting patients from waitlist",
+        "starting_at": 25,
+        "pricing_notes": "{\"Adult\": \"$120\", \"Child (with DPC parent)\": \"$25\", \"Family\": \"$250\", \"Spouse\": \"$90\"}"
+      },
+      "id": "c1cdb06d604d",
+      "name": "Betten Integrative Medicine",
+      "address": "8191 Moorsbridge Rd, Suite A, Portage, MI 49024",
+      "phone": "(269) 312-8170",
+      "website": "https://www.bettenwellness.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Karen Betten, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Waitlist",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Adult\": \"$120\", \"Child (with DPC parent)\": \"$25\", \"Family\": \"$250\", \"Spouse\": \"$90\"}",
+        "structured": [
+          {
+            "label": "Adult",
+            "price": 120.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$120"
+          },
+          {
+            "label": "Child (with DPC parent)",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          },
+          {
+            "label": "Family",
+            "price": 250.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$250"
+          },
+          {
+            "label": "Spouse",
+            "price": 90.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$90"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "Age 18-64: $120",
+          "Family: $250",
+          "Spouse: $90"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Portage, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": false
+      }
+    },
+    {
+      "_original": {
+        "name": "Beyond Primary Care",
+        "address": "955 W. Eisenhower Circle, Suite E, Ann Arbor, MI 48103",
+        "phone": "7345620774",
+        "website": "http://www.beyondprimarycare.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jeff O'Boyle, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 15,
+        "pricing_notes": "{\"0-18\": \"$15\", \"19-24\": \"$30\", \"25-49\": \"$50\", \"50-64\": \"$70\", \"65+\": \"$80\"}"
+      },
+      "id": "20062bf54062",
+      "name": "Beyond Primary Care",
+      "address": "955 W. Eisenhower Circle, Suite E, Ann Arbor, MI 48103",
+      "phone": "(734) 562-0774",
+      "website": "http://www.beyondprimarycare.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jeff O'Boyle, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 15,
+      "pricing": {
+        "raw": "{\"0-18\": \"$15\", \"19-24\": \"$30\", \"25-49\": \"$50\", \"50-64\": \"$70\", \"65+\": \"$80\"}",
+        "structured": [
+          {
+            "label": "0-18",
+            "price": 15.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$15"
+          },
+          {
+            "label": "19-24",
+            "price": 30.0,
+            "age_min": 19,
+            "age_max": 24,
+            "raw_price": "$30"
+          },
+          {
+            "label": "25-49",
+            "price": 50.0,
+            "age_min": 25,
+            "age_max": 49,
+            "raw_price": "$50"
+          },
+          {
+            "label": "50-64",
+            "price": 70.0,
+            "age_min": 50,
+            "age_max": 64,
+            "raw_price": "$70"
+          },
+          {
+            "label": "65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $15",
+          "Age 19-24: $30",
+          "Age 25-49: $50",
+          "Age 50-64: $70",
+          "Age 65+: $80"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$15+/mo",
+        "location": "Ann Arbor, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Celly Health",
+        "address": "10850 E Traverse Hwy STE 1155, Traverse City, MI 49684",
+        "phone": "(231) 268-0013",
+        "website": "https://www.cellyhealth.com",
+        "practice_type": "Hybrid DPC",
+        "physician": [
+          "Shawn Cole, MD",
+          "Colleen Buchan, NP-C",
+          "Cassidy Warner, PA-C"
+        ],
+        "specialties": [
+          "Internal Medicine",
+          "General medicine (no residency training)"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "270af284cced",
+      "name": "Celly Health",
+      "address": "10850 E Traverse Hwy STE 1155, Traverse City, MI 49684",
+      "phone": "(231) 268-0013",
+      "website": "https://www.cellyhealth.com",
+      "practice_type": "Hybrid DPC",
+      "physicians": [
+        "Shawn Cole, MD",
+        "Colleen Buchan, NP-C",
+        "Cassidy Warner, PA-C"
+      ],
+      "specialties": [
+        "Internal Medicine",
+        "General medicine (no residency training)"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Traverse City, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 3,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Christian Healthcare Centers",
+        "address": "53 West Wood Street, Newaygo, MI 49337",
+        "phone": "231-707-2313",
+        "website": "http://www.chcenters.org",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Abigail Rotman, FNP",
+          "Andrew Rusk, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "{\"Adult 18-64\": \"$90\", \"Child (2-17)\": \"$20\", \"College/Tech School Student\": \"$40\", \"Newborn - 24 months\": \"$35\", \"Senior 65+\": \"$80\"}"
+      },
+      "id": "553fee3a0b07",
+      "name": "Christian Healthcare Centers",
+      "address": "53 West Wood Street, Newaygo, MI 49337",
+      "phone": "(231) 707-2313",
+      "website": "http://www.chcenters.org",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Abigail Rotman, FNP",
+        "Andrew Rusk, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "{\"Adult 18-64\": \"$90\", \"Child (2-17)\": \"$20\", \"College/Tech School Student\": \"$40\", \"Newborn - 24 months\": \"$35\", \"Senior 65+\": \"$80\"}",
+        "structured": [
+          {
+            "label": "Adult 18-64",
+            "price": 90.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Child (2-17)",
+            "price": 20.0,
+            "age_min": 2,
+            "age_max": 17,
+            "raw_price": "$20"
+          },
+          {
+            "label": "College/Tech School Student",
+            "price": 40.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Newborn - 24 months",
+            "price": 35.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$35"
+          },
+          {
+            "label": "Senior 65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $35",
+          "Age 2-17: $20",
+          "Age 18-64: $90",
+          "Age 65+: $80",
+          "College/Tech School Student: $40"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Newaygo, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Christian Healthcare Centers",
+        "address": "3272 Platinum St. NE, Grand Rapids, MI 49525",
+        "phone": "616-226-2669",
+        "website": "http://www.chcenters.org",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jeffery Woo, MD",
+          "Rebecca Huizen, DO",
+          "Cathy Woo, FNP",
+          "Ariana Lockstadt, MD",
+          "Carly Thompson, DNP",
+          "Michael Voiles, PA-C",
+          "Jonathan Abel, DO"
+        ],
+        "specialties": [
+          "Internal Medicine",
+          "Pediatrics",
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "{\"Adult 18-64\": \"$90\", \"Child (2-17)\": \"$20\", \"College/Tech School Student\": \"$40\", \"Full maternity care\": \"$3000\", \"Newborn - 24 months\": \"$35\", \"Senior 65+\": \"$80\"}"
+      },
+      "id": "11c4bccac7f8",
+      "name": "Christian Healthcare Centers",
+      "address": "3272 Platinum St. NE, Grand Rapids, MI 49525",
+      "phone": "(616) 226-2669",
+      "website": "http://www.chcenters.org",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jeffery Woo, MD",
+        "Rebecca Huizen, DO",
+        "Cathy Woo, FNP",
+        "Ariana Lockstadt, MD",
+        "Carly Thompson, DNP",
+        "Michael Voiles, PA-C",
+        "Jonathan Abel, DO"
+      ],
+      "specialties": [
+        "Internal Medicine",
+        "Pediatrics",
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "{\"Adult 18-64\": \"$90\", \"Child (2-17)\": \"$20\", \"College/Tech School Student\": \"$40\", \"Full maternity care\": \"$3000\", \"Newborn - 24 months\": \"$35\", \"Senior 65+\": \"$80\"}",
+        "structured": [
+          {
+            "label": "Adult 18-64",
+            "price": 90.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Child (2-17)",
+            "price": 20.0,
+            "age_min": 2,
+            "age_max": 17,
+            "raw_price": "$20"
+          },
+          {
+            "label": "College/Tech School Student",
+            "price": 40.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Full maternity care",
+            "price": 3000.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$3000"
+          },
+          {
+            "label": "Newborn - 24 months",
+            "price": 35.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$35"
+          },
+          {
+            "label": "Senior 65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $35",
+          "Age 2-17: $20",
+          "Age 18-64: $90",
+          "Age 65+: $80",
+          "College/Tech School Student: $40",
+          "Full maternity care: $3000"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 7,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Christian Healthcare Centers Holland/Lakeshore",
+        "address": "9640 Adams St., Holland, MI 49424",
+        "phone": "(616) 377-2668",
+        "website": "https://www.chcenters.org/lakeshore/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jonathan Abel, DO",
+          "Abby Rotman, FNP",
+          "Michael Voiles, PA-C"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "[{\"category\": \"Infants - 24 months\", \"price\": \"$35\"}, {\"category\": \"Children 2-17 yrs\", \"price\": \"$20\"}, {\"category\": \"College/Tech School Student\", \"price\": \"$40\"}, {\"category\": \"Adult 18-64\", \"price\": \"$90\"}, {\"category\": \"Senior 65+\", \"price\": \"$80\"}]"
+      },
+      "id": "1f9eba0a05b3",
+      "name": "Christian Healthcare Centers Holland/Lakeshore",
+      "address": "9640 Adams St., Holland, MI 49424",
+      "phone": "(616) 377-2668",
+      "website": "https://www.chcenters.org/lakeshore/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jonathan Abel, DO",
+        "Abby Rotman, FNP",
+        "Michael Voiles, PA-C"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "[{\"category\": \"Infants - 24 months\", \"price\": \"$35\"}, {\"category\": \"Children 2-17 yrs\", \"price\": \"$20\"}, {\"category\": \"College/Tech School Student\", \"price\": \"$40\"}, {\"category\": \"Adult 18-64\", \"price\": \"$90\"}, {\"category\": \"Senior 65+\", \"price\": \"$80\"}]",
+        "structured": [
+          {
+            "label": "Infants - 24 months",
+            "price": 35.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$35"
+          },
+          {
+            "label": "Children 2-17 yrs",
+            "price": 20.0,
+            "age_min": 2,
+            "age_max": 17,
+            "raw_price": "$20"
+          },
+          {
+            "label": "College/Tech School Student",
+            "price": 40.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Adult 18-64",
+            "price": 90.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Senior 65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $35",
+          "Age 2-17: $20",
+          "Age 18-64: $90",
+          "Age 65+: $80",
+          "College/Tech School Student: $40"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Holland, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 3,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Citadel Health Center",
+        "address": "9385 Cherry Valley Ave SE, Caledonia, MI 49316",
+        "phone": "269-276-4347",
+        "website": "https://www.citadelhealthcenter.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Wesley Eichorn, DO",
+          "Susan Jevert-Eichorn, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 85,
+        "pricing_notes": "Age 19+ $85"
+      },
+      "id": "382fe05b47e6",
+      "name": "Citadel Health Center",
+      "address": "9385 Cherry Valley Ave SE, Caledonia, MI 49316",
+      "phone": "(269) 276-4347",
+      "website": "https://www.citadelhealthcenter.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Wesley Eichorn, DO",
+        "Susan Jevert-Eichorn, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 85,
+      "pricing": {
+        "raw": "Age 19+ $85",
+        "structured": [],
+        "display_lines": [
+          "Age 19+ $85"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$85+/mo",
+        "location": "Caledonia, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "ClearHealth Medical",
+        "address": "43211 Dalcoma Dr, Suite 4, Clinton Twp, MI 48038",
+        "phone": "586-315-4313",
+        "website": "https://www.clearhealthmedical.com",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"20 to 39\": \"$50\", \"40 and Up\": \"$75\", \"Newborn to 19\": \"$25\"}"
+      },
+      "id": "49adfd30fdee",
+      "name": "ClearHealth Medical",
+      "address": "43211 Dalcoma Dr, Suite 4, Clinton Twp, MI 48038",
+      "phone": "(586) 315-4313",
+      "website": "https://www.clearhealthmedical.com",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"20 to 39\": \"$50\", \"40 and Up\": \"$75\", \"Newborn to 19\": \"$25\"}",
+        "structured": [
+          {
+            "label": "20 to 39",
+            "price": 50.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$50"
+          },
+          {
+            "label": "40 and Up",
+            "price": 75.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$75"
+          },
+          {
+            "label": "Newborn to 19",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "20 to 39: $50",
+          "40 and Up: $75"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Clinton Twp, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Daisy Direct Primary Care",
+        "address": "1905 Abbot Rd , Suite 3, East Lansing, MI 48823",
+        "phone": "517 657-1018",
+        "website": "https://www.daisydpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Amy Korzecke, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 60,
+        "pricing_notes": "{\"Ages 18-40\": \"$80\", \"Ages 41+\": \"$95\", \"Students\": \"$60\"}"
+      },
+      "id": "4dbe76af18b4",
+      "name": "Daisy Direct Primary Care",
+      "address": "1905 Abbot Rd, Suite 3, East Lansing, MI 48823",
+      "phone": "(517) 657-1018",
+      "website": "https://www.daisydpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Amy Korzecke, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 60,
+      "pricing": {
+        "raw": "{\"Ages 18-40\": \"$80\", \"Ages 41+\": \"$95\", \"Students\": \"$60\"}",
+        "structured": [
+          {
+            "label": "Ages 18-40",
+            "price": 80.0,
+            "age_min": 18,
+            "age_max": 40,
+            "raw_price": "$80"
+          },
+          {
+            "label": "Ages 41+",
+            "price": 95.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$95"
+          },
+          {
+            "label": "Students",
+            "price": 60.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$60"
+          }
+        ],
+        "display_lines": [
+          "Age 18-40: $80",
+          "Ages 41+: $95",
+          "Students: $60"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$60+/mo",
+        "location": "East Lansing, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Direct Primary Care of West Michigan",
+        "address": "3501 Lake Eastbrook Blvd SE, Ste. 258, Grand Rapids, MI 49546",
+        "phone": "(616) 202-4088",
+        "website": "https://www.dpcwestmi.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Belen Amat, MD"
+        ],
+        "specialties": [
+          "Internal Medicine/Pediatrics"
+        ],
+        "status": "Not currently accepting new patients",
+        "starting_at": 10,
+        "pricing_notes": "{\"0-19\": \"$10\", \"20-50\": \"$50\", \"51-100\": \"$75\"}"
+      },
+      "id": "aec25ea63b8d",
+      "name": "Direct Primary Care of West Michigan",
+      "address": "3501 Lake Eastbrook Blvd SE, Ste. 258, Grand Rapids, MI 49546",
+      "phone": "(616) 202-4088",
+      "website": "https://www.dpcwestmi.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Belen Amat, MD"
+      ],
+      "specialties": [
+        "Internal Medicine/Pediatrics"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 10,
+      "pricing": {
+        "raw": "{\"0-19\": \"$10\", \"20-50\": \"$50\", \"51-100\": \"$75\"}",
+        "structured": [
+          {
+            "label": "0-19",
+            "price": 10.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$10"
+          },
+          {
+            "label": "20-50",
+            "price": 50.0,
+            "age_min": 20,
+            "age_max": 50,
+            "raw_price": "$50"
+          },
+          {
+            "label": "51-100",
+            "price": 75.0,
+            "age_min": 51,
+            "age_max": 100,
+            "raw_price": "$75"
+          }
+        ],
+        "display_lines": [
+          "Age 0-19: $10",
+          "Age 20-50: $50",
+          "Age 51-100: $75"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$10+/mo",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "Internal Medicine/Pediatrics",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Docs by the Bay DPC",
+        "address": "2810 Charlevoix Ave., Petoskey , MI 49770",
+        "phone": "231-881-9054",
+        "website": "https://docsbythebaydpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Thomas Ling, MD",
+          "Mark Richmond, MD"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 75,
+        "pricing_notes": "{\"> 60\": \"$100\", \"Age 18 - 50\": \"$75\", \"Age 51-60\": \"$90\"}"
+      },
+      "id": "88d8acc4bd49",
+      "name": "Docs by the Bay DPC",
+      "address": "2810 Charlevoix Ave., Petoskey, MI 49770",
+      "phone": "(231) 881-9054",
+      "website": "https://docsbythebaydpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Thomas Ling, MD",
+        "Mark Richmond, MD"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 75,
+      "pricing": {
+        "raw": "{\"> 60\": \"$100\", \"Age 18 - 50\": \"$75\", \"Age 51-60\": \"$90\"}",
+        "structured": [
+          {
+            "label": "> 60",
+            "price": 100.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$100"
+          },
+          {
+            "label": "Age 18 - 50",
+            "price": 75.0,
+            "age_min": 18,
+            "age_max": 50,
+            "raw_price": "$75"
+          },
+          {
+            "label": "Age 51-60",
+            "price": 90.0,
+            "age_min": 51,
+            "age_max": 60,
+            "raw_price": "$90"
+          }
+        ],
+        "display_lines": [
+          "Age 18-50: $75",
+          "Age 51-60: $90",
+          "> 60: $100"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$75+/mo",
+        "location": "Petoskey, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Dune Shores Health",
+        "address": "17188 Van Wagoner Rd, Suite B, Spring Lake, MI 49456",
+        "phone": "616-747-8570",
+        "website": "https://duneshoreshealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Gregory Holton, MD"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 120,
+        "pricing_notes": "All ages 18 and up: $120"
+      },
+      "id": "a9c05fc8eb2c",
+      "name": "Dune Shores Health",
+      "address": "17188 Van Wagoner Rd, Suite B, Spring Lake, MI 49456",
+      "phone": "(616) 747-8570",
+      "website": "https://duneshoreshealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Gregory Holton, MD"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 120,
+      "pricing": {
+        "raw": "All ages 18 and up: $120",
+        "structured": [],
+        "display_lines": [
+          "All ages 18 and up: $120"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$120+/mo",
+        "location": "Spring Lake, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Family Doc Direct",
+        "address": "2289 Sower Blvd , Suite B , Okemos, Michigan 48864",
+        "phone": "5172200603",
+        "website": "http://www.familydocdirect.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Adriana Raus, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "{\"0-19\": \"$20\", \"20-49\": \"$50\", \"50-79\": \"$75\", \"80-100\": \"$100\"}"
+      },
+      "id": "82f60f029e69",
+      "name": "Family Doc Direct",
+      "address": "2289 Sower Blvd, Suite B, Okemos, Michigan 48864",
+      "phone": "(517) 220-0603",
+      "website": "http://www.familydocdirect.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Adriana Raus, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "{\"0-19\": \"$20\", \"20-49\": \"$50\", \"50-79\": \"$75\", \"80-100\": \"$100\"}",
+        "structured": [
+          {
+            "label": "0-19",
+            "price": 20.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$20"
+          },
+          {
+            "label": "20-49",
+            "price": 50.0,
+            "age_min": 20,
+            "age_max": 49,
+            "raw_price": "$50"
+          },
+          {
+            "label": "50-79",
+            "price": 75.0,
+            "age_min": 50,
+            "age_max": 79,
+            "raw_price": "$75"
+          },
+          {
+            "label": "80-100",
+            "price": 100.0,
+            "age_min": 80,
+            "age_max": 100,
+            "raw_price": "$100"
+          }
+        ],
+        "display_lines": [
+          "Age 0-19: $20",
+          "Age 20-49: $50",
+          "Age 50-79: $75",
+          "Age 80-100: $100"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Okemos, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Family Physicians of St. Joseph",
+        "address": "147 Peace Blvd, St. Joseph, MI 49085",
+        "phone": "(269) 429-5000",
+        "website": "https://familyphysiciansdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Michael Eggebrecht, DO",
+          "Leanne Mancini, DO",
+          "Allison Meadows, MD",
+          "James Gendernalik, DO",
+          "Sarah Gendernalik, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 55,
+        "pricing_notes": "[{\"cost\": \"$55\", \"range\": \"Age 0-18\"}, {\"cost\": \"$55\", \"range\": \"College Student\"}, {\"cost\": \"$65\", \"range\": \"Age 19-49\"}, {\"cost\": \"$75\", \"range\": \"Age 50-98\"}, {\"cost\": \"$0\", \"range\": \"Age 99+\"}]"
+      },
+      "id": "be19d4df7cb4",
+      "name": "Family Physicians of St. Joseph",
+      "address": "147 Peace Blvd, St. Joseph, MI 49085",
+      "phone": "(269) 429-5000",
+      "website": "https://familyphysiciansdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Michael Eggebrecht, DO",
+        "Leanne Mancini, DO",
+        "Allison Meadows, MD",
+        "James Gendernalik, DO",
+        "Sarah Gendernalik, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 55,
+      "pricing": {
+        "raw": "[{\"cost\": \"$55\", \"range\": \"Age 0-18\"}, {\"cost\": \"$55\", \"range\": \"College Student\"}, {\"cost\": \"$65\", \"range\": \"Age 19-49\"}, {\"cost\": \"$75\", \"range\": \"Age 50-98\"}, {\"cost\": \"$0\", \"range\": \"Age 99+\"}]",
+        "structured": [
+          {
+            "label": "Age 0-18",
+            "price": 55.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$55"
+          },
+          {
+            "label": "College Student",
+            "price": 55.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$55"
+          },
+          {
+            "label": "Age 19-49",
+            "price": 65.0,
+            "age_min": 19,
+            "age_max": 49,
+            "raw_price": "$65"
+          },
+          {
+            "label": "Age 50-98",
+            "price": 75.0,
+            "age_min": 50,
+            "age_max": 98,
+            "raw_price": "$75"
+          },
+          {
+            "label": "Age 99+",
+            "price": 0.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$0"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $55",
+          "Age 19-49: $65",
+          "Age 50-98: $75",
+          "College Student: $55"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$55+/mo",
+        "location": "St. Joseph, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 5,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "FamilyDoc DPC",
+        "address": "508 W Main St, Suite A2, Lowell, mi 49331",
+        "phone": "616-255-6902",
+        "website": "https://www.familydocdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Paul Troost, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 75,
+        "pricing_notes": "Adult $75"
+      },
+      "id": "046d8184d95a",
+      "name": "FamilyDoc DPC",
+      "address": "508 W Main St, Suite A2, Lowell, mi 49331",
+      "phone": "(616) 255-6902",
+      "website": "https://www.familydocdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Paul Troost, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 75,
+      "pricing": {
+        "raw": "Adult $75",
+        "structured": [],
+        "display_lines": [
+          "Adult $75"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$75+/mo",
+        "location": "Lowell, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Genesis Health and Performance",
+        "address": "3240 W. Carleton Rd, Ste. B, Hillsdale, MI 49242",
+        "phone": "(517) 610-5469",
+        "website": "https://www.genesis-health-performance.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Kenneth Mueller, DO",
+          "Cathy Buiten, FNP"
+        ],
+        "specialties": [
+          "Sports medicine",
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 99,
+        "pricing_notes": "{\"Primary Care Membership\": \"$99\"}"
+      },
+      "id": "288798d671a4",
+      "name": "Genesis Health and Performance",
+      "address": "3240 W. Carleton Rd, Ste. B, Hillsdale, MI 49242",
+      "phone": "(517) 610-5469",
+      "website": "https://www.genesis-health-performance.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Kenneth Mueller, DO",
+        "Cathy Buiten, FNP"
+      ],
+      "specialties": [
+        "Sports medicine",
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 99,
+      "pricing": {
+        "raw": "{\"Primary Care Membership\": \"$99\"}",
+        "structured": [
+          {
+            "label": "Primary Care Membership",
+            "price": 99.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$99"
+          }
+        ],
+        "display_lines": [
+          "Primary Care Membership: $99"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$99+/mo",
+        "location": "Hillsdale, MI",
+        "primary_specialty": "Sports medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Harris Family Health",
+        "address": "432 N Saginaw St, Suite 401A, Flint, MI 48502",
+        "phone": "810-214-0075",
+        "website": "https://www.harrisfamilyhealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Aisha Harris, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 30,
+        "pricing_notes": "{\"Ages 18-39\": \"$60\", \"Ages 4-17\": \"$30\", \"Ages 40+\": \"$80\"}"
+      },
+      "id": "eec28719a4f1",
+      "name": "Harris Family Health",
+      "address": "432 N Saginaw St, Suite 401A, Flint, MI 48502",
+      "phone": "(810) 214-0075",
+      "website": "https://www.harrisfamilyhealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Aisha Harris, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 30,
+      "pricing": {
+        "raw": "{\"Ages 18-39\": \"$60\", \"Ages 4-17\": \"$30\", \"Ages 40+\": \"$80\"}",
+        "structured": [
+          {
+            "label": "Ages 18-39",
+            "price": 60.0,
+            "age_min": 18,
+            "age_max": 39,
+            "raw_price": "$60"
+          },
+          {
+            "label": "Ages 4-17",
+            "price": 30.0,
+            "age_min": 4,
+            "age_max": 17,
+            "raw_price": "$30"
+          },
+          {
+            "label": "Ages 40+",
+            "price": 80.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 4-17: $30",
+          "Age 18-39: $60",
+          "Ages 40+: $80"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$30+/mo",
+        "location": "Flint, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Health Share Plan",
+        "address": "Grand Blanc, MI 48439",
+        "phone": "",
+        "website": "http://www.healthshareplan.com/",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "7dbc60e2ec75",
+      "name": "Health Share Plan",
+      "address": "Grand Blanc, MI 48439",
+      "phone": null,
+      "website": "http://www.healthshareplan.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Grand Blanc, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "HealthBar Direct",
+        "address": "49 Coldbrook Street NE, Grand Rapids, Michigan 49503",
+        "phone": "616-200-8435",
+        "website": "https://healthbar.com/healthbar-direct/",
+        "practice_type": "Onsite Mobile Pure DPC",
+        "physician": [],
+        "specialties": [
+          "General medicine (no residency training)"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": ""
+      },
+      "id": "3b057279b916",
+      "name": "HealthBar Direct",
+      "address": "49 Coldbrook Street NE, Grand Rapids, Michigan 49503",
+      "phone": "(616) 200-8435",
+      "website": "https://healthbar.com/healthbar-direct/",
+      "practice_type": "Onsite Mobile Pure DPC",
+      "physicians": [],
+      "specialties": [
+        "General medicine (no residency training)"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "General medicine (no residency training)",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Healthy Values DPC",
+        "address": "1675 Watertower Place, Suite 700, East Lansing, MI 48823",
+        "phone": "517-858-9810",
+        "website": "https://www.healthyvaluesdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Amy Wallace, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 30,
+        "pricing_notes": "[{\"age_range\": \"0-19\", \"monthly_fee\": \"$30\"}, {\"age_range\": \"20-49\", \"monthly_fee\": \"$60\"}, {\"age_range\": \"50-79\", \"monthly_fee\": \"$80\"}, {\"age_range\": \"80-100\", \"monthly_fee\": \"$100\"}]"
+      },
+      "id": "503b6187ab41",
+      "name": "Healthy Values DPC",
+      "address": "1675 Watertower Place, Suite 700, East Lansing, MI 48823",
+      "phone": "(517) 858-9810",
+      "website": "https://www.healthyvaluesdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Amy Wallace, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 30,
+      "pricing": {
+        "raw": "[{\"age_range\": \"0-19\", \"monthly_fee\": \"$30\"}, {\"age_range\": \"20-49\", \"monthly_fee\": \"$60\"}, {\"age_range\": \"50-79\", \"monthly_fee\": \"$80\"}, {\"age_range\": \"80-100\", \"monthly_fee\": \"$100\"}]",
+        "structured": [
+          {
+            "label": "0-19",
+            "price": 30.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$30"
+          },
+          {
+            "label": "20-49",
+            "price": 60.0,
+            "age_min": 20,
+            "age_max": 49,
+            "raw_price": "$60"
+          },
+          {
+            "label": "50-79",
+            "price": 80.0,
+            "age_min": 50,
+            "age_max": 79,
+            "raw_price": "$80"
+          },
+          {
+            "label": "80-100",
+            "price": 100.0,
+            "age_min": 80,
+            "age_max": 100,
+            "raw_price": "$100"
+          }
+        ],
+        "display_lines": [
+          "Age 0-19: $30",
+          "Age 20-49: $60",
+          "Age 50-79: $80",
+          "Age 80-100: $100"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$30+/mo",
+        "location": "East Lansing, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Hey Doc, P.C.",
+        "address": "1431 Washington Blvd, Unit 2510, Detroit, MI 48226",
+        "phone": "313-666-1113",
+        "website": "https://heydoc.health/",
+        "practice_type": "Mobile Hybrid DPC",
+        "physician": [
+          "Rauf (Mo) Sadiqi, DO",
+          "Gasim Bella, DO",
+          "Arzoo Sadiqi, DO"
+        ],
+        "specialties": [
+          "Internal Medicine",
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 99,
+        "pricing_notes": "{\"Individual\": \"$99\"}"
+      },
+      "id": "c799cf4b740a",
+      "name": "Hey Doc, P.C.",
+      "address": "1431 Washington Blvd, Unit 2510, Detroit, MI 48226",
+      "phone": "(313) 666-1113",
+      "website": "https://heydoc.health/",
+      "practice_type": "Mobile Hybrid DPC",
+      "physicians": [
+        "Rauf (Mo) Sadiqi, DO",
+        "Gasim Bella, DO",
+        "Arzoo Sadiqi, DO"
+      ],
+      "specialties": [
+        "Internal Medicine",
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 99,
+      "pricing": {
+        "raw": "{\"Individual\": \"$99\"}",
+        "structured": [
+          {
+            "label": "Individual",
+            "price": 99.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$99"
+          }
+        ],
+        "display_lines": [
+          "Individual: $99"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$99+/mo",
+        "location": "Detroit, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 3,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Hometown Family Practice",
+        "address": "605 S Lapeer Rd, Oxford, MI 48371",
+        "phone": "",
+        "website": "http://hometownfamilypractice.com",
+        "practice_type": "Hybrid DPC",
+        "physician": [
+          "Katie Mysen",
+          "DNP",
+          "FNP-BC"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 49,
+        "pricing_notes": "Individual Membership: $49"
+      },
+      "id": "53122eb86cb8",
+      "name": "Hometown Family Practice",
+      "address": "605 S Lapeer Rd, Oxford, MI 48371",
+      "phone": null,
+      "website": "http://hometownfamilypractice.com",
+      "practice_type": "Hybrid DPC",
+      "physicians": [
+        "Katie Mysen"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 49,
+      "pricing": {
+        "raw": "Individual Membership: $49",
+        "structured": [],
+        "display_lines": [
+          "Individual Membership: $49"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$49+/mo",
+        "location": "Oxford, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Honeybee Pediatrics and Lactation",
+        "address": "2200 Green Road Suite H, Ann Arbor, MI 48105",
+        "phone": "7343618699",
+        "website": "https://honeybpeds.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Ghada Harsouni, MD"
+        ],
+        "specialties": [
+          "Pediatrics"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 100,
+        "pricing_notes": "{\"Ages 0-2\": \"$175\", \"Ages 2-5\": \"$135\", \"Ages 6-19\": \"$100\"}"
+      },
+      "id": "f90ede384390",
+      "name": "Honeybee Pediatrics and Lactation",
+      "address": "2200 Green Road Suite H, Ann Arbor, MI 48105",
+      "phone": "(734) 361-8699",
+      "website": "https://honeybpeds.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Ghada Harsouni, MD"
+      ],
+      "specialties": [
+        "Pediatrics"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 100,
+      "pricing": {
+        "raw": "{\"Ages 0-2\": \"$175\", \"Ages 2-5\": \"$135\", \"Ages 6-19\": \"$100\"}",
+        "structured": [
+          {
+            "label": "Ages 0-2",
+            "price": 175.0,
+            "age_min": 0,
+            "age_max": 2,
+            "raw_price": "$175"
+          },
+          {
+            "label": "Ages 2-5",
+            "price": 135.0,
+            "age_min": 2,
+            "age_max": 5,
+            "raw_price": "$135"
+          },
+          {
+            "label": "Ages 6-19",
+            "price": 100.0,
+            "age_min": 6,
+            "age_max": 19,
+            "raw_price": "$100"
+          }
+        ],
+        "display_lines": [
+          "Age 0-2: $175",
+          "Age 2-5: $135",
+          "Age 6-19: $100"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$100+/mo",
+        "location": "Ann Arbor, MI",
+        "primary_specialty": "Pediatrics",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Inspired Health & Wellness",
+        "address": "4415 Duke Street, Ste 2E, Kalamazoo, MI 49008",
+        "phone": "269-459-1272",
+        "website": "https://www.ihwkalamazoo.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jennifer Houtman, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Adult (18-64)\": \"$80\", \"Children (0-17)\": \"$25\", \"College Students/ Tradeschool Students\": \"$50\", \"Seniors (65+)\": \"$65\"}"
+      },
+      "id": "658a11dfb5df",
+      "name": "Inspired Health & Wellness",
+      "address": "4415 Duke Street, Ste 2E, Kalamazoo, MI 49008",
+      "phone": "(269) 459-1272",
+      "website": "https://www.ihwkalamazoo.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jennifer Houtman, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Adult (18-64)\": \"$80\", \"Children (0-17)\": \"$25\", \"College Students/ Tradeschool Students\": \"$50\", \"Seniors (65+)\": \"$65\"}",
+        "structured": [
+          {
+            "label": "Adult (18-64)",
+            "price": 80.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$80"
+          },
+          {
+            "label": "Children (0-17)",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          },
+          {
+            "label": "College Students/ Tradeschool Students",
+            "price": 50.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$50"
+          },
+          {
+            "label": "Seniors (65+)",
+            "price": 65.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$65"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "Age 18-64: $80",
+          "Age 65+: $65",
+          "College Students/ Tradeschool Students: $50"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Kalamazoo, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Jane Klaes DO PLLC",
+        "address": "1269 Strieter Rd, Ann Arbor, MI 48103",
+        "phone": "7343586733",
+        "website": "https://drjaneklaes.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jane Klaes, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 29,
+        "pricing_notes": "{\"18-29\": \"$29.99\", \"30-49\": \"$49.99\", \"50-69\": \"$69.99\", \"70+\": \"$89.99\"}"
+      },
+      "id": "a3a4d4cabff6",
+      "name": "Jane Klaes DO PLLC",
+      "address": "1269 Strieter Rd, Ann Arbor, MI 48103",
+      "phone": "(734) 358-6733",
+      "website": "https://drjaneklaes.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jane Klaes, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 29,
+      "pricing": {
+        "raw": "{\"18-29\": \"$29.99\", \"30-49\": \"$49.99\", \"50-69\": \"$69.99\", \"70+\": \"$89.99\"}",
+        "structured": [
+          {
+            "label": "18-29",
+            "price": 29.99,
+            "age_min": 18,
+            "age_max": 29,
+            "raw_price": "$29.99"
+          },
+          {
+            "label": "30-49",
+            "price": 49.99,
+            "age_min": 30,
+            "age_max": 49,
+            "raw_price": "$49.99"
+          },
+          {
+            "label": "50-69",
+            "price": 69.99,
+            "age_min": 50,
+            "age_max": 69,
+            "raw_price": "$69.99"
+          },
+          {
+            "label": "70+",
+            "price": 89.99,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$89.99"
+          }
+        ],
+        "display_lines": [
+          "Age 18-29: $29",
+          "Age 30-49: $49",
+          "Age 50-69: $69",
+          "70+: $89"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$29+/mo",
+        "location": "Ann Arbor, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Joy Family Health",
+        "address": "904 S. Washington Ave., Ste. 120, Holland, MI 49423",
+        "phone": "616-422-4900",
+        "website": "https://www.joyfamilyhealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Christa Murphy, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "[{\"age_group\": \"0-17 (as dependent enrollment)\", \"price\": \"$20\"}, {\"age_group\": \"18-44\", \"price\": \"$70\"}, {\"age_group\": \"45-64\", \"price\": \"$85\"}, {\"age_group\": \"65+\", \"price\": \"$99\"}, {\"age_group\": \"100+\", \"price\": \"$1\"}]"
+      },
+      "id": "591189580cb4",
+      "name": "Joy Family Health",
+      "address": "904 S. Washington Ave., Ste. 120, Holland, MI 49423",
+      "phone": "(616) 422-4900",
+      "website": "https://www.joyfamilyhealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Christa Murphy, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "[{\"age_group\": \"0-17 (as dependent enrollment)\", \"price\": \"$20\"}, {\"age_group\": \"18-44\", \"price\": \"$70\"}, {\"age_group\": \"45-64\", \"price\": \"$85\"}, {\"age_group\": \"65+\", \"price\": \"$99\"}, {\"age_group\": \"100+\", \"price\": \"$1\"}]",
+        "structured": [
+          {
+            "label": "0-17 (as dependent enrollment)",
+            "price": 20.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$20"
+          },
+          {
+            "label": "18-44",
+            "price": 70.0,
+            "age_min": 18,
+            "age_max": 44,
+            "raw_price": "$70"
+          },
+          {
+            "label": "45-64",
+            "price": 85.0,
+            "age_min": 45,
+            "age_max": 64,
+            "raw_price": "$85"
+          },
+          {
+            "label": "65+",
+            "price": 99.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$99"
+          },
+          {
+            "label": "100+",
+            "price": 1.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$1"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $20",
+          "Age 18-44: $70",
+          "Age 45-64: $85",
+          "Age 65+: $99",
+          "100+: $1"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Holland, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Kite Dream Care",
+        "address": "28595 Orchard Lake , Rd #104, Farmington Hills, Michigan 48334",
+        "phone": "(248) 965-0541",
+        "website": "https://www.kitedreamcare.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jamie Baines, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 70,
+        "pricing_notes": "{\"Ages 0-25\": \"$70\", \"Ages 26-100\": \"$175\"}"
+      },
+      "id": "ffe1dd311d3e",
+      "name": "Kite Dream Care",
+      "address": "28595 Orchard Lake, Rd #104, Farmington Hills, Michigan 48334",
+      "phone": "(248) 965-0541",
+      "website": "https://www.kitedreamcare.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jamie Baines, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 70,
+      "pricing": {
+        "raw": "{\"Ages 0-25\": \"$70\", \"Ages 26-100\": \"$175\"}",
+        "structured": [
+          {
+            "label": "Ages 0-25",
+            "price": 70.0,
+            "age_min": 0,
+            "age_max": 25,
+            "raw_price": "$70"
+          },
+          {
+            "label": "Ages 26-100",
+            "price": 175.0,
+            "age_min": 26,
+            "age_max": 100,
+            "raw_price": "$175"
+          }
+        ],
+        "display_lines": [
+          "Age 0-25: $70",
+          "Age 26-100: $175"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$70+/mo",
+        "location": "Farmington Hills, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Kozmic Care",
+        "address": "921 Abbott Rd, Suite South, East Lansing, MI 48823",
+        "phone": "517-299-0663",
+        "website": "https://kozmiccare.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Elizabeth Kozlowski, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "f5a69b24af0b",
+      "name": "Kozmic Care",
+      "address": "921 Abbott Rd, Suite South, East Lansing, MI 48823",
+      "phone": "(517) 299-0663",
+      "website": "https://kozmiccare.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Elizabeth Kozlowski, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "East Lansing, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "LakeshoreMD",
+        "address": "950 Taylor Avenue, Ste 170, Grand Haven, MI 49417",
+        "phone": "616-201-7559",
+        "website": "https://lakeshoremd.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Ruchira Mehra, MD",
+          "MPH"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Age 0-19\": \"$25\", \"Age 20-44\": \"$50\", \"Age 45-64\": \"$75\", \"Age 65+\": \"$85\"}"
+      },
+      "id": "14ca41c8eaf4",
+      "name": "LakeshoreMD",
+      "address": "950 Taylor Avenue, Ste 170, Grand Haven, MI 49417",
+      "phone": "(616) 201-7559",
+      "website": "https://lakeshoremd.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Ruchira Mehra, MD",
+        "MPH"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Age 0-19\": \"$25\", \"Age 20-44\": \"$50\", \"Age 45-64\": \"$75\", \"Age 65+\": \"$85\"}",
+        "structured": [
+          {
+            "label": "Age 0-19",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$25"
+          },
+          {
+            "label": "Age 20-44",
+            "price": 50.0,
+            "age_min": 20,
+            "age_max": 44,
+            "raw_price": "$50"
+          },
+          {
+            "label": "Age 45-64",
+            "price": 75.0,
+            "age_min": 45,
+            "age_max": 64,
+            "raw_price": "$75"
+          },
+          {
+            "label": "Age 65+",
+            "price": 85.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$85"
+          }
+        ],
+        "display_lines": [
+          "Age 0-19: $25",
+          "Age 20-44: $50",
+          "Age 45-64: $75",
+          "Age 65+: $85"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Grand Haven, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Lansing Family & Lifestyle Medicine",
+        "address": "PO Box, Grand Ledge, MI 48837",
+        "phone": "(517) 258-0855",
+        "website": "https://familyandlifestylemedicine.org",
+        "practice_type": "Mobile Pure DPC",
+        "physician": [
+          "Kimberly Azelton, MD",
+          "MPA",
+          "DipABLM"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 40,
+        "pricing_notes": "{\"0-18\": \"$40\", \"19-64\": \"$60\", \"65+\": \"$80\"}"
+      },
+      "id": "31e1ad96dbe1",
+      "name": "Lansing Family & Lifestyle Medicine",
+      "address": "PO Box, Grand Ledge, MI 48837",
+      "phone": "(517) 258-0855",
+      "website": "https://familyandlifestylemedicine.org",
+      "practice_type": "Mobile Pure DPC",
+      "physicians": [
+        "Kimberly Azelton, MD",
+        "DipABLM"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 40,
+      "pricing": {
+        "raw": "{\"0-18\": \"$40\", \"19-64\": \"$60\", \"65+\": \"$80\"}",
+        "structured": [
+          {
+            "label": "0-18",
+            "price": 40.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$40"
+          },
+          {
+            "label": "19-64",
+            "price": 60.0,
+            "age_min": 19,
+            "age_max": 64,
+            "raw_price": "$60"
+          },
+          {
+            "label": "65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $40",
+          "Age 19-64: $60",
+          "Age 65+: $80"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$40+/mo",
+        "location": "Grand Ledge, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Laurie Birkholz, MD & Assoc.",
+        "address": "11971 James St, Holland, MI 49424",
+        "phone": "616-345-5263",
+        "website": "https://www.lauriebirkholzmd.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Laurie Birkholz, MD",
+          "Angela Burch, PA-C",
+          "Anna Spoelhof, FNP-C"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 20,
+        "pricing_notes": "{\"Age 26-44\": \"$40\", \"Age 45-64\": \"$60\", \"Age 65+\": \"$80\", \"Age Under 25\": \"$20\"}"
+      },
+      "id": "484ae0af59ac",
+      "name": "Laurie Birkholz, MD & Assoc.",
+      "address": "11971 James St, Holland, MI 49424",
+      "phone": "(616) 345-5263",
+      "website": "https://www.lauriebirkholzmd.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Laurie Birkholz, MD",
+        "Angela Burch, PA-C",
+        "Anna Spoelhof, FNP-C"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 20,
+      "pricing": {
+        "raw": "{\"Age 26-44\": \"$40\", \"Age 45-64\": \"$60\", \"Age 65+\": \"$80\", \"Age Under 25\": \"$20\"}",
+        "structured": [
+          {
+            "label": "Age 26-44",
+            "price": 40.0,
+            "age_min": 26,
+            "age_max": 44,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Age 45-64",
+            "price": 60.0,
+            "age_min": 45,
+            "age_max": 64,
+            "raw_price": "$60"
+          },
+          {
+            "label": "Age 65+",
+            "price": 80.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$80"
+          },
+          {
+            "label": "Age Under 25",
+            "price": 20.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$20"
+          }
+        ],
+        "display_lines": [
+          "Age 26-44: $40",
+          "Age 45-64: $60",
+          "Age 65+: $80",
+          "Age Under 25: $20"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$20+/mo",
+        "location": "Holland, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 3,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Lawrence Community Care",
+        "address": "119 N. Paw Paw St, Lawrence, MI 49064",
+        "phone": "269-241-2220",
+        "website": "https://lawrencecommunitycare.com",
+        "practice_type": "Hybrid DPC",
+        "physician": [
+          "Kevin Ferrell",
+          "MSM, PA-C"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Adults\": \"$70\", \"Children\": \"$25\", \"College 18-24\": \"$50\", \"Urgent Care Walk-in: Care Level I\": \"$90\", \"Urgent Care Walk-in: Care Level II\": \"$120\", \"Urgent Care Walk-in: Care Level III\": \"$150\"}"
+      },
+      "id": "4d288355a805",
+      "name": "Lawrence Community Care",
+      "address": "119 N. Paw Paw St, Lawrence, MI 49064",
+      "phone": "(269) 241-2220",
+      "website": "https://lawrencecommunitycare.com",
+      "practice_type": "Hybrid DPC",
+      "physicians": [
+        "Kevin Ferrell",
+        "MSM, PA-C"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Adults\": \"$70\", \"Children\": \"$25\", \"College 18-24\": \"$50\", \"Urgent Care Walk-in: Care Level I\": \"$90\", \"Urgent Care Walk-in: Care Level II\": \"$120\", \"Urgent Care Walk-in: Care Level III\": \"$150\"}",
+        "structured": [
+          {
+            "label": "Adults",
+            "price": 70.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$70"
+          },
+          {
+            "label": "Children",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          },
+          {
+            "label": "College 18-24",
+            "price": 50.0,
+            "age_min": 18,
+            "age_max": 24,
+            "raw_price": "$50"
+          },
+          {
+            "label": "Urgent Care Walk-in: Care Level I",
+            "price": 90.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Urgent Care Walk-in: Care Level II",
+            "price": 120.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$120"
+          },
+          {
+            "label": "Urgent Care Walk-in: Care Level III",
+            "price": 150.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$150"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "Age 18-64: $70",
+          "Age 18-24: $50",
+          "Urgent Care Walk-in: Care Level I: $90",
+          "Urgent Care Walk-in: Care Level II: $120",
+          "Urgent Care Walk-in: Care Level III: $150"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Lawrence, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "LiveWell DPC",
+        "address": "19145 Allen Road, Suite 107, Brownstown, Michigan 48183",
+        "phone": "734-486-4200",
+        "website": "https://www.livewelldpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Navin Raj, MD",
+          "Kashif Qureshi, MD"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 15,
+        "pricing_notes": "[\"0-19 years old with enrolled parent: $15\", \"0-19 years old without enrolled parent: $30\", \"20-44 years old: $50\", \"45-64 years old: $75\", \"65+ years old: $100\"]"
+      },
+      "id": "ad04a67adedd",
+      "name": "LiveWell DPC",
+      "address": "19145 Allen Road, Suite 107, Brownstown, Michigan 48183",
+      "phone": "(734) 486-4200",
+      "website": "https://www.livewelldpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Navin Raj, MD",
+        "Kashif Qureshi, MD"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 15,
+      "pricing": {
+        "raw": "[\"0-19 years old with enrolled parent: $15\", \"0-19 years old without enrolled parent: $30\", \"20-44 years old: $50\", \"45-64 years old: $75\", \"65+ years old: $100\"]",
+        "structured": [],
+        "display_lines": [
+          "[\"0-19 years old with enrolled parent: $15\", \"0-19 years old without enrolled parent: $30\", \"20-44 years old: $50\", \"45-64 years old: $75\", \"65+ years old: $100\"]"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$15+/mo",
+        "location": "Brownstown, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Lotus Direct Primary Care",
+        "address": "10407 E. Grand River Rd #600, Brighton, MI 48116",
+        "phone": "248-430-8649",
+        "website": "https://www.lotusdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Suma Thomas, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 80,
+        "pricing_notes": "{\"couple\": \"$150\", \"family\": \"$250 (2 adults + 4 children under age 26)\", \"single_member\": \"$80\"}"
+      },
+      "id": "1e19af45850c",
+      "name": "Lotus Direct Primary Care",
+      "address": "10407 E. Grand River Rd #600, Brighton, MI 48116",
+      "phone": "(248) 430-8649",
+      "website": "https://www.lotusdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Suma Thomas, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 80,
+      "pricing": {
+        "raw": "{\"couple\": \"$150\", \"family\": \"$250 (2 adults + 4 children under age 26)\", \"single_member\": \"$80\"}",
+        "structured": [
+          {
+            "label": "couple",
+            "price": 150.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$150"
+          },
+          {
+            "label": "family",
+            "price": null,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$250 (2 adults + 4 children under age 26)"
+          },
+          {
+            "label": "single_member",
+            "price": 80.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "couple: $150",
+          "single_member: $80"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$80+/mo",
+        "location": "Brighton, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Magnolia Medical DPC",
+        "address": "10740 Dixie Hwy Ste B, Davisburg, MI 48350",
+        "phone": "810-425-8921",
+        "website": "https://www.magnoliamedicaldpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Nicole Rye, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 30,
+        "pricing_notes": "{\"0-21 years old\": \"$30\", \"22-39 years old\": \"$60\", \"40-64 years old\": \"$80\"}"
+      },
+      "id": "e7cea454b2f2",
+      "name": "Magnolia Medical DPC",
+      "address": "10740 Dixie Hwy Ste B, Davisburg, MI 48350",
+      "phone": "(810) 425-8921",
+      "website": "https://www.magnoliamedicaldpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Nicole Rye, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 30,
+      "pricing": {
+        "raw": "{\"0-21 years old\": \"$30\", \"22-39 years old\": \"$60\", \"40-64 years old\": \"$80\"}",
+        "structured": [
+          {
+            "label": "0-21 years old",
+            "price": 30.0,
+            "age_min": 0,
+            "age_max": 21,
+            "raw_price": "$30"
+          },
+          {
+            "label": "22-39 years old",
+            "price": 60.0,
+            "age_min": 22,
+            "age_max": 39,
+            "raw_price": "$60"
+          },
+          {
+            "label": "40-64 years old",
+            "price": 80.0,
+            "age_min": 40,
+            "age_max": 64,
+            "raw_price": "$80"
+          }
+        ],
+        "display_lines": [
+          "Age 0-21: $30",
+          "Age 22-39: $60",
+          "Age 40-64: $80"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$30+/mo",
+        "location": "Davisburg, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Mandy Trevino MD, PLLC Direct Primary Care",
+        "address": "8391 Commerce Rd, STE 103, Commerce Twp, MI 48382",
+        "phone": "248-918-4101",
+        "website": "https://www.mandytrevinomd.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Mandy Trevino, MD",
+          "MPH"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "[{\"age_range\": \"3-18\", \"monthly_fee\": \"$25\"}, {\"age_range\": \"19-29\", \"monthly_fee\": \"$50\"}, {\"age_range\": \"30-39\", \"monthly_fee\": \"$75\"}, {\"age_range\": \"40-64\", \"monthly_fee\": \"$90\"}, {\"age_range\": \"65 and above\", \"monthly_fee\": \"$110\"}]"
+      },
+      "id": "fcf0ef3d39a0",
+      "name": "Mandy Trevino MD, PLLC Direct Primary Care",
+      "address": "8391 Commerce Rd, STE 103, Commerce Twp, MI 48382",
+      "phone": "(248) 918-4101",
+      "website": "https://www.mandytrevinomd.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Mandy Trevino, MD",
+        "MPH"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "[{\"age_range\": \"3-18\", \"monthly_fee\": \"$25\"}, {\"age_range\": \"19-29\", \"monthly_fee\": \"$50\"}, {\"age_range\": \"30-39\", \"monthly_fee\": \"$75\"}, {\"age_range\": \"40-64\", \"monthly_fee\": \"$90\"}, {\"age_range\": \"65 and above\", \"monthly_fee\": \"$110\"}]",
+        "structured": [
+          {
+            "label": "3-18",
+            "price": 25.0,
+            "age_min": 3,
+            "age_max": 18,
+            "raw_price": "$25"
+          },
+          {
+            "label": "19-29",
+            "price": 50.0,
+            "age_min": 19,
+            "age_max": 29,
+            "raw_price": "$50"
+          },
+          {
+            "label": "30-39",
+            "price": 75.0,
+            "age_min": 30,
+            "age_max": 39,
+            "raw_price": "$75"
+          },
+          {
+            "label": "40-64",
+            "price": 90.0,
+            "age_min": 40,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "65 and above",
+            "price": 110.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$110"
+          }
+        ],
+        "display_lines": [
+          "Age 3-18: $25",
+          "Age 19-29: $50",
+          "Age 30-39: $75",
+          "Age 40-64: $90",
+          "65 and above: $110"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Commerce Twp, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Members Private Healthcare",
+        "address": "31330 Northwestern Hwy, Suite D, Farmington Hills, MI 48334",
+        "phone": "(248) 918-2337",
+        "website": "https://www.membersprivatehealthcare.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Howard Bortman",
+          "DO; Xiaonan Guo, DO"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 99,
+        "pricing_notes": "{\"Age 18-29 yo / Basic Membership\": \"$99\", \"Age 30+ yo / Basic Membership\": \"$149\", \"Platinum Membership - Age 30+\": \"$249\", \"Trial Membership - 1 month only\": \"$149\"}"
+      },
+      "id": "279fe16b15d6",
+      "name": "Members Private Healthcare",
+      "address": "31330 Northwestern Hwy, Suite D, Farmington Hills, MI 48334",
+      "phone": "(248) 918-2337",
+      "website": "https://www.membersprivatehealthcare.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Howard Bortman",
+        "DO; Xiaonan Guo, DO"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 99,
+      "pricing": {
+        "raw": "{\"Age 18-29 yo / Basic Membership\": \"$99\", \"Age 30+ yo / Basic Membership\": \"$149\", \"Platinum Membership - Age 30+\": \"$249\", \"Trial Membership - 1 month only\": \"$149\"}",
+        "structured": [
+          {
+            "label": "Age 18-29 yo / Basic Membership",
+            "price": 99.0,
+            "age_min": 18,
+            "age_max": 29,
+            "raw_price": "$99"
+          },
+          {
+            "label": "Age 30+ yo / Basic Membership",
+            "price": 149.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$149"
+          },
+          {
+            "label": "Platinum Membership - Age 30+",
+            "price": 249.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$249"
+          },
+          {
+            "label": "Trial Membership - 1 month only",
+            "price": 149.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$149"
+          }
+        ],
+        "display_lines": [
+          "Age 18-29: $99",
+          "Age 30+ yo / Basic Membership: $149",
+          "Platinum Membership - Age 30+: $249",
+          "Trial Membership - 1 month only: $149"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$99+/mo",
+        "location": "Farmington Hills, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Mt. Vernon Medical Office and Services",
+        "address": "64253 Van Dyke Rd., Washington, MI 48095",
+        "phone": "586-789-5992",
+        "website": "https://www.mtvernonmed.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Renee Susko, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 900,
+        "pricing_notes": "Single person per year: $900"
+      },
+      "id": "46e029752197",
+      "name": "Mt. Vernon Medical Office and Services",
+      "address": "64253 Van Dyke Rd., Washington, MI 48095",
+      "phone": "(586) 789-5992",
+      "website": "https://www.mtvernonmed.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Renee Susko, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 900,
+      "pricing": {
+        "raw": "Single person per year: $900",
+        "structured": [],
+        "display_lines": [
+          "Single person per year: $900"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$900+/mo",
+        "location": "Washington, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "MyMD Medical Concierge",
+        "address": "455 E. Eisenhower Pkwy, Suite 300, Ann Arbor, MI 48108",
+        "phone": "734.707.7893",
+        "website": "https://www.mymdmed.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Igor Shkolnik, MD",
+          "Loren Shkolnik, NP"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 300,
+        "pricing_notes": "Individual: $300"
+      },
+      "id": "9b068979736d",
+      "name": "MyMD Medical Concierge",
+      "address": "455 E. Eisenhower Pkwy, Suite 300, Ann Arbor, MI 48108",
+      "phone": "(734) 707-7893",
+      "website": "https://www.mymdmed.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Igor Shkolnik, MD",
+        "Loren Shkolnik, NP"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 300,
+      "pricing": {
+        "raw": "Individual: $300",
+        "structured": [],
+        "display_lines": [
+          "Individual: $300"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$300+/mo",
+        "location": "Ann Arbor, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Nextera Healthcare (Dua Wellness Clinic)",
+        "address": "1200 Joe Hall Drive, Ypsilanti, MI 48197",
+        "phone": "303-501-2600",
+        "website": "http://www.nexterahealthcare.com/",
+        "practice_type": "Hybrid DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "ecf364db52ee",
+      "name": "Nextera Healthcare (Dua Wellness Clinic)",
+      "address": "1200 Joe Hall Drive, Ypsilanti, MI 48197",
+      "phone": "(303) 501-2600",
+      "website": "http://www.nexterahealthcare.com/",
+      "practice_type": "Hybrid DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Ypsilanti, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Nextera Healthcare (Dua Wellness Clinic)",
+        "address": "8542 North Canton Center Road, Canton, MI 48187",
+        "phone": "303-501-2600",
+        "website": "http://www.nexterahealthcare.com/",
+        "practice_type": "Hybrid DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown"
+      },
+      "id": "9e7e3e92f414",
+      "name": "Nextera Healthcare (Dua Wellness Clinic)",
+      "address": "8542 North Canton Center Road, Canton, MI 48187",
+      "phone": "(303) 501-2600",
+      "website": "http://www.nexterahealthcare.com/",
+      "practice_type": "Hybrid DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Canton, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "NorthCountry Health DPC",
+        "address": "717 W Washington St, Suite A, Marquette , MI 49855",
+        "phone": "906-936-3499",
+        "website": "https://northcountryhealthmqt.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Katie Brang, MD",
+          "Ryan Brang, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"0-18\": \"$25\", \"19-44\": \"$75\", \"45+\": \"$95\"}"
+      },
+      "id": "c5b420fb5287",
+      "name": "NorthCountry Health DPC",
+      "address": "717 W Washington St, Suite A, Marquette, MI 49855",
+      "phone": "(906) 936-3499",
+      "website": "https://northcountryhealthmqt.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Katie Brang, MD",
+        "Ryan Brang, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"0-18\": \"$25\", \"19-44\": \"$75\", \"45+\": \"$95\"}",
+        "structured": [
+          {
+            "label": "0-18",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$25"
+          },
+          {
+            "label": "19-44",
+            "price": 75.0,
+            "age_min": 19,
+            "age_max": 44,
+            "raw_price": "$75"
+          },
+          {
+            "label": "45+",
+            "price": 95.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$95"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $25",
+          "Age 19-44: $75",
+          "45+: $95"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Marquette, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Nova Direct Primary Care",
+        "address": "4081 Cascade Rd SE, Ste. 600, Grand Rapids, MI 49546",
+        "phone": "6162724938",
+        "website": "http://novadpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Matt Falkiewicz, MD",
+          "Nick Blank, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Yes",
+        "starting_at": 29,
+        "pricing_notes": "{\"0-17\": \"$29\", \"18+\": \"$79\", \"College for one semester\": \"$200\", \"College for the full year\": \"$500\"}"
+      },
+      "id": "757739fb44e4",
+      "name": "Nova Direct Primary Care",
+      "address": "4081 Cascade Rd SE, Ste. 600, Grand Rapids, MI 49546",
+      "phone": "(616) 272-4938",
+      "website": "http://novadpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Matt Falkiewicz, MD",
+        "Nick Blank, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 29,
+      "pricing": {
+        "raw": "{\"0-17\": \"$29\", \"18+\": \"$79\", \"College for one semester\": \"$200\", \"College for the full year\": \"$500\"}",
+        "structured": [
+          {
+            "label": "0-17",
+            "price": 29.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$29"
+          },
+          {
+            "label": "18+",
+            "price": 79.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$79"
+          },
+          {
+            "label": "College for one semester",
+            "price": 200.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$200"
+          },
+          {
+            "label": "College for the full year",
+            "price": 500.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$500"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $29",
+          "18+: $79",
+          "College for one semester: $200",
+          "College for the full year: $500"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$29+/mo",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Origin Pediatrics",
+        "address": "7399 Middlebelt Rd, Suite 3, West Bloomfield, MI 48322",
+        "phone": "248-780-1695",
+        "website": "https://www.originpeds.com",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 125,
+        "pricing_notes": "[{\"category\": \"Ages 0-2 years\", \"price\": \"$185\"}, {\"category\": \"Ages 2-6 years\", \"price\": \"$155\"}, {\"category\": \"Ages 6-18 years\", \"price\": \"$125\"}]"
+      },
+      "id": "0d5cdf2115f6",
+      "name": "Origin Pediatrics",
+      "address": "7399 Middlebelt Rd, Suite 3, West Bloomfield, MI 48322",
+      "phone": "(248) 780-1695",
+      "website": "https://www.originpeds.com",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 125,
+      "pricing": {
+        "raw": "[{\"category\": \"Ages 0-2 years\", \"price\": \"$185\"}, {\"category\": \"Ages 2-6 years\", \"price\": \"$155\"}, {\"category\": \"Ages 6-18 years\", \"price\": \"$125\"}]",
+        "structured": [
+          {
+            "label": "Ages 0-2 years",
+            "price": 185.0,
+            "age_min": 0,
+            "age_max": 2,
+            "raw_price": "$185"
+          },
+          {
+            "label": "Ages 2-6 years",
+            "price": 155.0,
+            "age_min": 2,
+            "age_max": 6,
+            "raw_price": "$155"
+          },
+          {
+            "label": "Ages 6-18 years",
+            "price": 125.0,
+            "age_min": 6,
+            "age_max": 18,
+            "raw_price": "$125"
+          }
+        ],
+        "display_lines": [
+          "Age 0-2: $185",
+          "Age 2-6: $155",
+          "Age 6-18: $125"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$125+/mo",
+        "location": "West Bloomfield, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Paradox Health",
+        "address": "455 South Livernois Road, Suite C-22, Rochester Hills, MI 48307",
+        "phone": "248-949-2224",
+        "website": "http://www.paradox.health",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Philip Hellman, MD",
+          "Lyndsi Davenport, DO"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 30,
+        "pricing_notes": "{\"65+\": \"$100\", \"Ages 0-19\": \"$40\", \"Ages 20-39\": \"$60\", \"Ages 40-64\": \"$80\", \"Ceiling on Families (adults + children 0-19)\": \"$220\", \"Children (0-19) w/ 1+ adult members\": \"$30\", \"Employer Groups of 5+\": \"$60\"}"
+      },
+      "id": "e82c59ad0a9f",
+      "name": "Paradox Health",
+      "address": "455 South Livernois Road, Suite C-22, Rochester Hills, MI 48307",
+      "phone": "(248) 949-2224",
+      "website": "http://www.paradox.health",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Philip Hellman, MD",
+        "Lyndsi Davenport, DO"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 30,
+      "pricing": {
+        "raw": "{\"65+\": \"$100\", \"Ages 0-19\": \"$40\", \"Ages 20-39\": \"$60\", \"Ages 40-64\": \"$80\", \"Ceiling on Families (adults + children 0-19)\": \"$220\", \"Children (0-19) w/ 1+ adult members\": \"$30\", \"Employer Groups of 5+\": \"$60\"}",
+        "structured": [
+          {
+            "label": "65+",
+            "price": 100.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$100"
+          },
+          {
+            "label": "Ages 0-19",
+            "price": 40.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Ages 20-39",
+            "price": 60.0,
+            "age_min": 20,
+            "age_max": 39,
+            "raw_price": "$60"
+          },
+          {
+            "label": "Ages 40-64",
+            "price": 80.0,
+            "age_min": 40,
+            "age_max": 64,
+            "raw_price": "$80"
+          },
+          {
+            "label": "Ceiling on Families (adults + children 0-19)",
+            "price": 220.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$220"
+          },
+          {
+            "label": "Children (0-19) w/ 1+ adult members",
+            "price": 30.0,
+            "age_min": 0,
+            "age_max": 19,
+            "raw_price": "$30"
+          },
+          {
+            "label": "Employer Groups of 5+",
+            "price": 60.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$60"
+          }
+        ],
+        "display_lines": [
+          "Age 0-19: $40",
+          "Age 0-19: $220",
+          "Age 0-19: $30",
+          "Age 20-39: $60",
+          "Age 40-64: $80",
+          "Age 65+: $100",
+          "Employer Groups of 5+: $60"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$30+/mo",
+        "location": "Rochester Hills, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Plum Health DPC",
+        "address": "1759 21st St, Detroit, MI 48216",
+        "phone": "313-444-5630",
+        "website": "http://www.plumhealthdpc.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Paul Thomas, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 10,
+        "pricing_notes": "[{\"age_range\": \"0 - 17\", \"cost\": \"$10\"}, {\"age_range\": \"18 - 39\", \"cost\": \"$49\"}, {\"age_range\": \"40 - 64\", \"cost\": \"$69\"}, {\"age_range\": \"65 - 99\", \"cost\": \"$89\"}]"
+      },
+      "id": "78dc0a7a83ee",
+      "name": "Plum Health DPC",
+      "address": "1759 21st St, Detroit, MI 48216",
+      "phone": "(313) 444-5630",
+      "website": "http://www.plumhealthdpc.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Paul Thomas, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 10,
+      "pricing": {
+        "raw": "[{\"age_range\": \"0 - 17\", \"cost\": \"$10\"}, {\"age_range\": \"18 - 39\", \"cost\": \"$49\"}, {\"age_range\": \"40 - 64\", \"cost\": \"$69\"}, {\"age_range\": \"65 - 99\", \"cost\": \"$89\"}]",
+        "structured": [
+          {
+            "label": "0 - 17",
+            "price": 10.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$10"
+          },
+          {
+            "label": "18 - 39",
+            "price": 49.0,
+            "age_min": 18,
+            "age_max": 39,
+            "raw_price": "$49"
+          },
+          {
+            "label": "40 - 64",
+            "price": 69.0,
+            "age_min": 40,
+            "age_max": 64,
+            "raw_price": "$69"
+          },
+          {
+            "label": "65 - 99",
+            "price": 89.0,
+            "age_min": 65,
+            "age_max": 99,
+            "raw_price": "$89"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $10",
+          "Age 18-39: $49",
+          "Age 40-64: $69",
+          "Age 65-99: $89"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$10+/mo",
+        "location": "Detroit, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Powers Family Medicine",
+        "address": "23700 Orchard Lake Road, Suite M, Farmington Hills, MI 48336",
+        "phone": "248-482-6222",
+        "website": "https://powersfamilymedicine.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "William J. Powers, D.O. AAHIVMS",
+          "Sommer Shefferly PA-C"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "LGBTQ+ Care",
+          "HIV Care",
+          "Gender Affirming Services"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 83,
+        "pricing_notes": "[\"Individual (MI Resident): $2,000/yr (~$166/mo)\", \"Individual (Non-Resident): $2,500/yr (~$208/mo)\", \"Spouse/Child Add-on (MI): $1,000/yr (~$83/mo)\", \"Spouse/Child Add-on (Non-Res): $1,125/yr (~$94/mo)\", \"Note: Quarterly billing available at slightly higher rates\"]"
+      },
+      "id": "535647a73a45",
+      "name": "Powers Family Medicine",
+      "address": "23700 Orchard Lake Road, Suite M, Farmington Hills, MI 48336",
+      "phone": "(248) 482-6222",
+      "website": "https://powersfamilymedicine.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "William J. Powers, D.O. AAHIVMS",
+        "Sommer Shefferly PA-C"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "LGBTQ+ Care",
+        "HIV Care",
+        "Gender Affirming Services"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 83,
+      "pricing": {
+        "raw": "[\"Individual (MI Resident): $2,000/yr (~$166/mo)\", \"Individual (Non-Resident): $2,500/yr (~$208/mo)\", \"Spouse/Child Add-on (MI): $1,000/yr (~$83/mo)\", \"Spouse/Child Add-on (Non-Res): $1,125/yr (~$94/mo)\", \"Note: Quarterly billing available at slightly higher rates\"]",
+        "structured": [],
+        "display_lines": [
+          "[\"Individual (MI Resident): $2,000/yr (~$166/mo)\", \"Individual (Non-Resident): $2,500/yr (~$208/mo)\", \"Spouse/Child Add-on (MI): $1,000/yr (~$83/mo)\", \"Spouse/Child Add-on (Non-Res): $1,125/yr (~$94/mo)\", \"Note: Quarterly billing available at slightly higher rates\"]"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$83+/mo",
+        "location": "Farmington Hills, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Premier Primary Care and Wellness",
+        "address": "912 Centennial Way, Suite 300, Lansing, MI 48917",
+        "phone": "(517) 705-3910",
+        "website": "https://premierprimary.doctor",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Breanna O'Keefe, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "09be9429c6db",
+      "name": "Premier Primary Care and Wellness",
+      "address": "912 Centennial Way, Suite 300, Lansing, MI 48917",
+      "phone": "(517) 705-3910",
+      "website": "https://premierprimary.doctor",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Breanna O'Keefe, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Lansing, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Premier Private Physicians",
+        "address": "1627 W Big Beaver Rd, Troy, MI 48084",
+        "phone": "248-220.1560",
+        "website": "http://premiermd.com/",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "4721c916a525",
+      "name": "Premier Private Physicians",
+      "address": "1627 W Big Beaver Rd, Troy, MI 48084",
+      "phone": "(248) 220-1560",
+      "website": "http://premiermd.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Troy, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Primary Care Plus+",
+        "address": "38900 Cherry Hill Road, Westland, MI 48185",
+        "phone": "7348953967",
+        "website": "https://www.plusdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Osinachi Ajaero, MD",
+          "Latoya Richardson, NP"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Ages 0-17\": \"$25\", \"Ages 18-50\": \"$50\", \"Ages 51-64\": \"$65\", \"Ages 65-100\": \"$75\"}"
+      },
+      "id": "45287361e249",
+      "name": "Primary Care Plus+",
+      "address": "38900 Cherry Hill Road, Westland, MI 48185",
+      "phone": "(734) 895-3967",
+      "website": "https://www.plusdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Osinachi Ajaero, MD",
+        "Latoya Richardson, NP"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Ages 0-17\": \"$25\", \"Ages 18-50\": \"$50\", \"Ages 51-64\": \"$65\", \"Ages 65-100\": \"$75\"}",
+        "structured": [
+          {
+            "label": "Ages 0-17",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          },
+          {
+            "label": "Ages 18-50",
+            "price": 50.0,
+            "age_min": 18,
+            "age_max": 50,
+            "raw_price": "$50"
+          },
+          {
+            "label": "Ages 51-64",
+            "price": 65.0,
+            "age_min": 51,
+            "age_max": 64,
+            "raw_price": "$65"
+          },
+          {
+            "label": "Ages 65-100",
+            "price": 75.0,
+            "age_min": 65,
+            "age_max": 100,
+            "raw_price": "$75"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "Age 18-50: $50",
+          "Age 51-64: $65",
+          "Age 65-100: $75"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Westland, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Proactive MD - Troy MI",
+        "address": "2370 Meijer Dr, Troy, MI 48084",
+        "phone": "",
+        "website": "http://proactive-md.com/",
+        "practice_type": "Onsite Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "b5e5855079af",
+      "name": "Proactive MD - Troy MI",
+      "address": "2370 Meijer Dr, Troy, MI 48084",
+      "phone": null,
+      "website": "http://proactive-md.com/",
+      "practice_type": "Onsite Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Troy, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Red Cedar Direct Primary Care PLLC",
+        "address": "2035 Asher Ct, Ste 500, East Lansing, MI 48823",
+        "phone": "517-258-0328",
+        "website": "https://redcedardpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Steven Roskos, MD",
+          "Suan Roskos, MPH"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "General medicine (no residency training)"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Age 0-22\": \"$25\", \"Age 23-49\": \"$55\", \"Age 51-64\": \"$65\", \"Age 65+\": \"$85\", \"Family max\": \"$225\"}"
+      },
+      "id": "85040e9d32eb",
+      "name": "Red Cedar Direct Primary Care PLLC",
+      "address": "2035 Asher Ct, Ste 500, East Lansing, MI 48823",
+      "phone": "(517) 258-0328",
+      "website": "https://redcedardpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Steven Roskos, MD",
+        "Suan Roskos, MPH"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "General medicine (no residency training)"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Age 0-22\": \"$25\", \"Age 23-49\": \"$55\", \"Age 51-64\": \"$65\", \"Age 65+\": \"$85\", \"Family max\": \"$225\"}",
+        "structured": [
+          {
+            "label": "Age 0-22",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 22,
+            "raw_price": "$25"
+          },
+          {
+            "label": "Age 23-49",
+            "price": 55.0,
+            "age_min": 23,
+            "age_max": 49,
+            "raw_price": "$55"
+          },
+          {
+            "label": "Age 51-64",
+            "price": 65.0,
+            "age_min": 51,
+            "age_max": 64,
+            "raw_price": "$65"
+          },
+          {
+            "label": "Age 65+",
+            "price": 85.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$85"
+          },
+          {
+            "label": "Family max",
+            "price": 225.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$225"
+          }
+        ],
+        "display_lines": [
+          "Age 0-22: $25",
+          "Age 23-49: $55",
+          "Age 51-64: $65",
+          "Age 65+: $85",
+          "Family max: $225"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "East Lansing, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Redbud Health Services",
+        "address": "500 East 3rd street , buchanan, mi 49107",
+        "phone": "269-409-8626",
+        "website": "https://redbudhealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Tammie Riess, NP"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 60,
+        "pricing_notes": "{\"ages 12-18\": \"$60\", \"ages 18-59\": \"$80\", \"ages 60+\": \"$95\"}"
+      },
+      "id": "dfd522de05d5",
+      "name": "Redbud Health Services",
+      "address": "500 East 3rd street, buchanan, mi 49107",
+      "phone": "(269) 409-8626",
+      "website": "https://redbudhealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Tammie Riess, NP"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 60,
+      "pricing": {
+        "raw": "{\"ages 12-18\": \"$60\", \"ages 18-59\": \"$80\", \"ages 60+\": \"$95\"}",
+        "structured": [
+          {
+            "label": "ages 12-18",
+            "price": 60.0,
+            "age_min": 12,
+            "age_max": 18,
+            "raw_price": "$60"
+          },
+          {
+            "label": "ages 18-59",
+            "price": 80.0,
+            "age_min": 18,
+            "age_max": 59,
+            "raw_price": "$80"
+          },
+          {
+            "label": "ages 60+",
+            "price": 95.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$95"
+          }
+        ],
+        "display_lines": [
+          "Age 12-18: $60",
+          "Age 18-59: $80",
+          "ages 60+: $95"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$60+/mo",
+        "location": "buchanan, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "SALTA of Auburn Hills",
+        "address": "2191 South Blvd., Ste 101 C, Auburn Hills, MI 48326",
+        "phone": "248.972.2780",
+        "website": "https://saltadirect.com/auburnhills/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Marcy Klein, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 45,
+        "pricing_notes": "{\"Adults 26+\": \"$90\", \"Children 1-25\": \"$45\"}"
+      },
+      "id": "59e2926fca59",
+      "name": "SALTA of Auburn Hills",
+      "address": "2191 South Blvd., Ste 101 C, Auburn Hills, MI 48326",
+      "phone": "(248) 972-2780",
+      "website": "https://saltadirect.com/auburnhills/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Marcy Klein, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 45,
+      "pricing": {
+        "raw": "{\"Adults 26+\": \"$90\", \"Children 1-25\": \"$45\"}",
+        "structured": [
+          {
+            "label": "Adults 26+",
+            "price": 90.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Children 1-25",
+            "price": 45.0,
+            "age_min": 1,
+            "age_max": 25,
+            "raw_price": "$45"
+          }
+        ],
+        "display_lines": [
+          "Age 1-25: $45",
+          "Age 18-64: $90"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$45+/mo",
+        "location": "Auburn Hills, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "SALTA of Clarkston",
+        "address": "6483 Citation Dr, Suite B, Village of Clarkston, MI 48346",
+        "phone": "248.861.0010",
+        "website": "https://saltadirect.com/clarkston/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Fabrizio Di Noto, M.D."
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 90,
+        "pricing_notes": "Adult: $90"
+      },
+      "id": "fda8e9879a63",
+      "name": "SALTA of Clarkston",
+      "address": "6483 Citation Dr, Suite B, Village of Clarkston, MI 48346",
+      "phone": "(248) 861-0010",
+      "website": "https://saltadirect.com/clarkston/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Fabrizio Di Noto, M.D."
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 90,
+      "pricing": {
+        "raw": "Adult: $90",
+        "structured": [],
+        "display_lines": [
+          "Adult: $90"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$90+/mo",
+        "location": "Village of Clarkston, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "SALTA of Shelby Township",
+        "address": "51221 Schoenherr Rd., Ste 103, Shelby Township, MI 48315",
+        "phone": "586.803.3484",
+        "website": "https://saltadirect.com/shelby/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Anthony Cardellio, D.O."
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 45,
+        "pricing_notes": "{\"Adults 26 and up\": \"$90\", \"Children 0-25\": \"$45\"}"
+      },
+      "id": "f5f8c764241d",
+      "name": "SALTA of Shelby Township",
+      "address": "51221 Schoenherr Rd., Ste 103, Shelby Township, MI 48315",
+      "phone": "(586) 803-3484",
+      "website": "https://saltadirect.com/shelby/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Anthony Cardellio, D.O."
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 45,
+      "pricing": {
+        "raw": "{\"Adults 26 and up\": \"$90\", \"Children 0-25\": \"$45\"}",
+        "structured": [
+          {
+            "label": "Adults 26 and up",
+            "price": 90.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$90"
+          },
+          {
+            "label": "Children 0-25",
+            "price": 45.0,
+            "age_min": 0,
+            "age_max": 25,
+            "raw_price": "$45"
+          }
+        ],
+        "display_lines": [
+          "Age 0-25: $45",
+          "Age 18-64: $90"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$45+/mo",
+        "location": "Shelby Township, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Sound Internal Medicine",
+        "address": "31815 Southfield Road, Suite 23B, Beverly Hills, MI 48025",
+        "phone": "248-938-0166",
+        "website": "https://www.soundinternalmedicine.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Jacqueline Gierer, DO"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 150,
+        "pricing_notes": "[{\"age_range\": \"18-99\", \"monthly_fee\": \"$150\"}, {\"age_range\": \"100+\", \"monthly_fee\": \"$1\"}]"
+      },
+      "id": "06cd68a1d3cd",
+      "name": "Sound Internal Medicine",
+      "address": "31815 Southfield Road, Suite 23B, Beverly Hills, MI 48025",
+      "phone": "(248) 938-0166",
+      "website": "https://www.soundinternalmedicine.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Jacqueline Gierer, DO"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 150,
+      "pricing": {
+        "raw": "[{\"age_range\": \"18-99\", \"monthly_fee\": \"$150\"}, {\"age_range\": \"100+\", \"monthly_fee\": \"$1\"}]",
+        "structured": [
+          {
+            "label": "18-99",
+            "price": 150.0,
+            "age_min": 18,
+            "age_max": 99,
+            "raw_price": "$150"
+          },
+          {
+            "label": "100+",
+            "price": 1.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$1"
+          }
+        ],
+        "display_lines": [
+          "Age 18-99: $150",
+          "100+: $1"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$150+/mo",
+        "location": "Beverly Hills, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "SWMI Health Matters",
+        "address": "5708 Venture Court, Suite A, Kalamazoo, Michigan 49009",
+        "phone": "269-220-0648",
+        "website": "https://www.integratedhealthmatters.com",
+        "practice_type": "Hybrid DPC",
+        "physician": [
+          "Marti Peters-Sparling, MD",
+          "Jenny Opdycke, PA-C"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Preventive Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "fc4d974806ba",
+      "name": "SWMI Health Matters",
+      "address": "5708 Venture Court, Suite A, Kalamazoo, Michigan 49009",
+      "phone": "(269) 220-0648",
+      "website": "https://www.integratedhealthmatters.com",
+      "practice_type": "Hybrid DPC",
+      "physicians": [
+        "Marti Peters-Sparling, MD",
+        "Jenny Opdycke, PA-C"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Preventive Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Kalamazoo, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Table Health",
+        "address": "818 Red Dr., Suite 100, Traverse City, MI 49684",
+        "phone": "231-333-1331",
+        "website": "https://tablehealthtc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Andrea Stocker, DO",
+          "Vince WinklerPrins, MD",
+          "Amy Bodnarchuk, MD",
+          "Michelle Manley, DO",
+          "Megan Stilwill, DO"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Internal Medicine",
+          "Pediatrics"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 57,
+        "pricing_notes": "{\"Age 0 - 39\": \"$57\", \"Age 40+\": \"$85\"}"
+      },
+      "id": "e3c88e07bb92",
+      "name": "Table Health",
+      "address": "818 Red Dr., Suite 100, Traverse City, MI 49684",
+      "phone": "(231) 333-1331",
+      "website": "https://tablehealthtc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Andrea Stocker, DO",
+        "Vince WinklerPrins, MD",
+        "Amy Bodnarchuk, MD",
+        "Michelle Manley, DO",
+        "Megan Stilwill, DO"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Internal Medicine",
+        "Pediatrics"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 57,
+      "pricing": {
+        "raw": "{\"Age 0 - 39\": \"$57\", \"Age 40+\": \"$85\"}",
+        "structured": [
+          {
+            "label": "Age 0 - 39",
+            "price": 57.0,
+            "age_min": 0,
+            "age_max": 39,
+            "raw_price": "$57"
+          },
+          {
+            "label": "Age 40+",
+            "price": 85.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$85"
+          }
+        ],
+        "display_lines": [
+          "Age 0-39: $57",
+          "Age 40+: $85"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$57+/mo",
+        "location": "Traverse City, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 5,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Table Health (Petoskey location)",
+        "address": "3890 Charlevoix Road, Suite 307, Petoskey, MI 49770",
+        "phone": "231-360-2496",
+        "website": "https://tablehealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Vince WinklerPrins, MD",
+          "Amy Bodnarchuk, MD"
+        ],
+        "specialties": [
+          "Family Medicine",
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 57,
+        "pricing_notes": "[{\"category\": \"Age 0 - 39\", \"price\": \"$57\"}, {\"category\": \"Age 40+\", \"price\": \"$85\"}]"
+      },
+      "id": "f8cbf9ede112",
+      "name": "Table Health (Petoskey location)",
+      "address": "3890 Charlevoix Road, Suite 307, Petoskey, MI 49770",
+      "phone": "(231) 360-2496",
+      "website": "https://tablehealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Vince WinklerPrins, MD",
+        "Amy Bodnarchuk, MD"
+      ],
+      "specialties": [
+        "Family Medicine",
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 57,
+      "pricing": {
+        "raw": "[{\"category\": \"Age 0 - 39\", \"price\": \"$57\"}, {\"category\": \"Age 40+\", \"price\": \"$85\"}]",
+        "structured": [
+          {
+            "label": "Age 0 - 39",
+            "price": 57.0,
+            "age_min": 0,
+            "age_max": 39,
+            "raw_price": "$57"
+          },
+          {
+            "label": "Age 40+",
+            "price": 85.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$85"
+          }
+        ],
+        "display_lines": [
+          "Age 0-39: $57",
+          "Age 40+: $85"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$57+/mo",
+        "location": "Petoskey, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "The Village Doctor at Cherry Hill",
+        "address": "50439 Independence Street, Canton, Michigan 48188",
+        "phone": "7348791068",
+        "website": "https://www.thevillagedoctor.net",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Kenneth Grimm, MD"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 30,
+        "pricing_notes": "{\"Adult 18-64\": \"$100\", \"Child under 18\": \"$80\", \"Child under 18 with enrolled Parent\": \"$30\", \"Senior 65 and over\": \"$130\"}"
+      },
+      "id": "4fb943ceff8a",
+      "name": "The Village Doctor at Cherry Hill",
+      "address": "50439 Independence Street, Canton, Michigan 48188",
+      "phone": "(734) 879-1068",
+      "website": "https://www.thevillagedoctor.net",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Kenneth Grimm, MD"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 30,
+      "pricing": {
+        "raw": "{\"Adult 18-64\": \"$100\", \"Child under 18\": \"$80\", \"Child under 18 with enrolled Parent\": \"$30\", \"Senior 65 and over\": \"$130\"}",
+        "structured": [
+          {
+            "label": "Adult 18-64",
+            "price": 100.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$100"
+          },
+          {
+            "label": "Child under 18",
+            "price": 80.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$80"
+          },
+          {
+            "label": "Child under 18 with enrolled Parent",
+            "price": 30.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$30"
+          },
+          {
+            "label": "Senior 65 and over",
+            "price": 130.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$130"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $80",
+          "Age 0-17: $30",
+          "Age 18-64: $100",
+          "Age 65+: $130"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$30+/mo",
+        "location": "Canton, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Thrive Family Health Direct Primary Care",
+        "address": "6157 28th Street SE Suite 18B, Grand Rapids, MI 49546",
+        "phone": "616-282-5969",
+        "website": "https://thrivefamilyhealthdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "John Italiano, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 100,
+        "pricing_notes": "{\"Family\": \"$300\", \"Individual\": \"$100\"}"
+      },
+      "id": "d882f97e43b8",
+      "name": "Thrive Family Health Direct Primary Care",
+      "address": "6157 28th Street SE Suite 18B, Grand Rapids, MI 49546",
+      "phone": "(616) 282-5969",
+      "website": "https://thrivefamilyhealthdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "John Italiano, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 100,
+      "pricing": {
+        "raw": "{\"Family\": \"$300\", \"Individual\": \"$100\"}",
+        "structured": [
+          {
+            "label": "Family",
+            "price": 300.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$300"
+          },
+          {
+            "label": "Individual",
+            "price": 100.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$100"
+          }
+        ],
+        "display_lines": [
+          "Family: $300",
+          "Individual: $100"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$100+/mo",
+        "location": "Grand Rapids, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "U.P. North Family Medicine",
+        "address": "127 Arbutus Ave., P.O. Box 5, Manistique, MI 49854",
+        "phone": "906-254-5400",
+        "website": "https://www.upnorthfamilymedicine.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Kelly Freberg-Ash, M.D."
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "{\"Age 0-18\": \"$25\", \"Age 19-44\": \"$75\", \"Age 45+\": \"$95\"}"
+      },
+      "id": "d239c22ccff7",
+      "name": "U.P. North Family Medicine",
+      "address": "127 Arbutus Ave., PO Box 5, Manistique, MI 49854",
+      "phone": "(906) 254-5400",
+      "website": "https://www.upnorthfamilymedicine.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Kelly Freberg-Ash, M.D."
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "{\"Age 0-18\": \"$25\", \"Age 19-44\": \"$75\", \"Age 45+\": \"$95\"}",
+        "structured": [
+          {
+            "label": "Age 0-18",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 18,
+            "raw_price": "$25"
+          },
+          {
+            "label": "Age 19-44",
+            "price": 75.0,
+            "age_min": 19,
+            "age_max": 44,
+            "raw_price": "$75"
+          },
+          {
+            "label": "Age 45+",
+            "price": 95.0,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$95"
+          }
+        ],
+        "display_lines": [
+          "Age 0-18: $25",
+          "Age 19-44: $75",
+          "Age 45+: $95"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Manistique, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Vibrant Health DPC",
+        "address": "24555 Southfield Rd, Suite 120, Southfield, MI 48075",
+        "phone": "734-855-5371",
+        "website": "https://na",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "a0bc373838e6",
+      "name": "Vibrant Health DPC",
+      "address": "24555 Southfield Rd, Suite 120, Southfield, MI 48075",
+      "phone": "(734) 855-5371",
+      "website": "https://na",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Southfield, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Victors Care",
+        "address": "2211 Old Earhart Rd, Ste. 195, Ann Arbor, MI 48105",
+        "phone": "734-615-9200",
+        "website": "http://www.victorscare.org/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Lawrence Joseph McMaster, D.O.",
+          "Monica DiMagno, MD"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 300,
+        "pricing_notes": "Ages 18 and up: $300"
+      },
+      "id": "06f3d321375d",
+      "name": "Victors Care",
+      "address": "2211 Old Earhart Rd, Ste. 195, Ann Arbor, MI 48105",
+      "phone": "(734) 615-9200",
+      "website": "http://www.victorscare.org/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Lawrence Joseph McMaster, D.O.",
+        "Monica DiMagno, MD"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 300,
+      "pricing": {
+        "raw": "Ages 18 and up: $300",
+        "structured": [],
+        "display_lines": [
+          "Ages 18 and up: $300"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$300+/mo",
+        "location": "Ann Arbor, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Violet Skies Family Health DPC",
+        "address": "9028 N Rodgers Ct. SE, Suite E2, Caledonia, MI 49316",
+        "phone": "6168265424",
+        "website": "https://www.violetskiesfamilyhealth.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Carrie Sandborn, DO"
+        ],
+        "specialties": [
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 25,
+        "pricing_notes": "[{\"group\": \"Ages 18-65\", \"price\": \"$50\"}, {\"group\": \"Ages 65+\", \"price\": \"$65\"}, {\"group\": \"Ages 0-17\", \"price\": \"$25\"}]"
+      },
+      "id": "6addb66718f7",
+      "name": "Violet Skies Family Health DPC",
+      "address": "9028 N Rodgers Ct. SE, Suite E2, Caledonia, MI 49316",
+      "phone": "(616) 826-5424",
+      "website": "https://www.violetskiesfamilyhealth.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Carrie Sandborn, DO"
+      ],
+      "specialties": [
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 25,
+      "pricing": {
+        "raw": "[{\"group\": \"Ages 18-65\", \"price\": \"$50\"}, {\"group\": \"Ages 65+\", \"price\": \"$65\"}, {\"group\": \"Ages 0-17\", \"price\": \"$25\"}]",
+        "structured": [
+          {
+            "label": "Ages 18-65",
+            "price": 50.0,
+            "age_min": 18,
+            "age_max": 65,
+            "raw_price": "$50"
+          },
+          {
+            "label": "Ages 65+",
+            "price": 65.0,
+            "age_min": 65,
+            "age_max": 999,
+            "raw_price": "$65"
+          },
+          {
+            "label": "Ages 0-17",
+            "price": 25.0,
+            "age_min": 0,
+            "age_max": 17,
+            "raw_price": "$25"
+          }
+        ],
+        "display_lines": [
+          "Age 0-17: $25",
+          "Age 18-65: $50",
+          "Age 65+: $65"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$25+/mo",
+        "location": "Caledonia, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 1,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Wellness NP of Michigan",
+        "address": "345 S Main St, Clawson, MI 48017",
+        "phone": "",
+        "website": "https://www.wellnessnpofmichigan.com",
+        "practice_type": "Mobile Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 40,
+        "pricing_notes": "{\"Adult (18-64)\": \"$60\", \"Adult (18-64) - Annual\": \"$612\", \"Child (5-17)\": \"$40\", \"Child (5-17) - Annual\": \"$408\", \"Family (2 adults, 2 children)\": \"$150\", \"Family (2 adults, 2 children) - Annual\": \"$1530\"}"
+      },
+      "id": "89fd726eaed3",
+      "name": "Wellness NP of Michigan",
+      "address": "345 S Main St, Clawson, MI 48017",
+      "phone": null,
+      "website": "https://www.wellnessnpofmichigan.com",
+      "practice_type": "Mobile Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 40,
+      "pricing": {
+        "raw": "{\"Adult (18-64)\": \"$60\", \"Adult (18-64) - Annual\": \"$612\", \"Child (5-17)\": \"$40\", \"Child (5-17) - Annual\": \"$408\", \"Family (2 adults, 2 children)\": \"$150\", \"Family (2 adults, 2 children) - Annual\": \"$1530\"}",
+        "structured": [
+          {
+            "label": "Adult (18-64)",
+            "price": 60.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$60"
+          },
+          {
+            "label": "Adult (18-64) - Annual",
+            "price": 612.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$612"
+          },
+          {
+            "label": "Child (5-17)",
+            "price": 40.0,
+            "age_min": 5,
+            "age_max": 17,
+            "raw_price": "$40"
+          },
+          {
+            "label": "Child (5-17) - Annual",
+            "price": 408.0,
+            "age_min": 5,
+            "age_max": 17,
+            "raw_price": "$408"
+          },
+          {
+            "label": "Family (2 adults, 2 children)",
+            "price": 150.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$150"
+          },
+          {
+            "label": "Family (2 adults, 2 children) - Annual",
+            "price": 1530.0,
+            "age_min": 18,
+            "age_max": 64,
+            "raw_price": "$1530"
+          }
+        ],
+        "display_lines": [
+          "Age 5-17: $40",
+          "Age 5-17: $408",
+          "Age 18-64: $60",
+          "Age 18-64: $612",
+          "Age 18-64: $150",
+          "Age 18-64: $1530"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$40+/mo",
+        "location": "Clawson, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "West Branch DPC",
+        "address": "575 Court St, Suite 3, West Branch, MI 48661",
+        "phone": "9897012159",
+        "website": "https://www.westbranchdpc.com",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Sally Sperbeck, DO",
+          "PhD"
+        ],
+        "specialties": [
+          "Internal Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 60,
+        "pricing_notes": "Charter Membership Pricing per Month: $60, Regular Membership Per Month: $70"
+      },
+      "id": "049b0ecfb872",
+      "name": "West Branch DPC",
+      "address": "575 Court St, Suite 3, West Branch, MI 48661",
+      "phone": "(989) 701-2159",
+      "website": "https://www.westbranchdpc.com",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Sally Sperbeck, DO",
+        "PhD"
+      ],
+      "specialties": [
+        "Internal Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 60,
+      "pricing": {
+        "raw": "Charter Membership Pricing per Month: $60, Regular Membership Per Month: $70",
+        "structured": [],
+        "display_lines": [
+          "Charter Membership Pricing per Month: $60, Regular Membership Per Month: $70"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$60+/mo",
+        "location": "West Branch, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Whole Family Direct Care",
+        "address": "1174 W Michigan Ave, Marshall, MI 49068",
+        "phone": "",
+        "website": "http://www.wholefamilydirectcare.com/",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "Unknown"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "e25dfb4f1a81",
+      "name": "Whole Family Direct Care",
+      "address": "1174 W Michigan Ave, Marshall, MI 49068",
+      "phone": null,
+      "website": "http://www.wholefamilydirectcare.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Marshall, MI",
+        "primary_specialty": "Family Medicine",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "Whole Family Direct Care",
+        "address": "115 Market Pl, Albion, MI 49224",
+        "phone": "",
+        "website": "http://www.wholefamilydirectcare.com/",
+        "practice_type": "Pure DPC",
+        "physician": [],
+        "specialties": [
+          "General medicine (no residency training)"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 0,
+        "pricing_notes": "Unknown."
+      },
+      "id": "3727483e720b",
+      "name": "Whole Family Direct Care",
+      "address": "115 Market Pl, Albion, MI 49224",
+      "phone": null,
+      "website": "http://www.wholefamilydirectcare.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [],
+      "specialties": [
+        "General medicine (no residency training)"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 0,
+      "pricing": {
+        "raw": "Unknown.",
+        "structured": [],
+        "display_lines": [
+          "Contact for pricing"
+        ],
+        "has_detailed_pricing": false,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "Contact for pricing",
+        "location": "Albion, MI",
+        "primary_specialty": "General medicine (no residency training)",
+        "physician_count": 0,
+        "accepting_new": true
+      }
+    },
+    {
+      "_original": {
+        "name": "YourChoice Direct Care",
+        "address": "8702 N. 2nd Street, Suite A, Brighton, MI 48116",
+        "phone": "(810) 224-5300",
+        "website": "http://www.yourchoicedirectcare.com/",
+        "practice_type": "Pure DPC",
+        "physician": [
+          "Chad Savage, MD",
+          "Naomi Pearsall-Cook, MD"
+        ],
+        "specialties": [
+          "Internal Medicine",
+          "Family Medicine"
+        ],
+        "status": "Accepting new patients",
+        "starting_at": 49,
+        "pricing_notes": "{\"Age 0-39\": \"$49.99\", \"Age 40-59\": \"$59.99\", \"Age 60-69\": \"$69.99\", \"Age 70+\": \"$79.99\"}"
+      },
+      "id": "223a3f757756",
+      "name": "YourChoice Direct Care",
+      "address": "8702 N. 2nd Street, Suite A, Brighton, MI 48116",
+      "phone": "(810) 224-5300",
+      "website": "http://www.yourchoicedirectcare.com/",
+      "practice_type": "Pure DPC",
+      "physicians": [
+        "Chad Savage, MD",
+        "Naomi Pearsall-Cook, MD"
+      ],
+      "specialties": [
+        "Internal Medicine",
+        "Family Medicine"
+      ],
+      "status": "Accepting new patients",
+      "starting_at": 49,
+      "pricing": {
+        "raw": "{\"Age 0-39\": \"$49.99\", \"Age 40-59\": \"$59.99\", \"Age 60-69\": \"$69.99\", \"Age 70+\": \"$79.99\"}",
+        "structured": [
+          {
+            "label": "Age 0-39",
+            "price": 49.99,
+            "age_min": 0,
+            "age_max": 39,
+            "raw_price": "$49.99"
+          },
+          {
+            "label": "Age 40-59",
+            "price": 59.99,
+            "age_min": 40,
+            "age_max": 59,
+            "raw_price": "$59.99"
+          },
+          {
+            "label": "Age 60-69",
+            "price": 69.99,
+            "age_min": 60,
+            "age_max": 69,
+            "raw_price": "$69.99"
+          },
+          {
+            "label": "Age 70+",
+            "price": 79.99,
+            "age_min": null,
+            "age_max": null,
+            "raw_price": "$79.99"
+          }
+        ],
+        "display_lines": [
+          "Age 0-39: $49",
+          "Age 40-59: $59",
+          "Age 60-69: $69",
+          "Age 70+: $79"
+        ],
+        "has_detailed_pricing": true,
+        "is_hsa_eligible": null
+      },
+      "display": {
+        "price_range": "$49+/mo",
+        "location": "Brighton, MI",
+        "primary_specialty": "Internal Medicine",
+        "physician_count": 2,
+        "accepting_new": true
+      }
+    }
+  ]
+}

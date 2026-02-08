@@ -1,0 +1,7 @@
+{
+  "name": "Mock up for findyourdpc.com",
+  "description": "A modern directory and blog platform for Direct Primary Care (DPC) practices, connecting patients with affordable, membership-based healthcare.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

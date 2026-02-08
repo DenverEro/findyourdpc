@@ -1,31 +1,41 @@
-# findyourdpc.com
+# findyourdpc.com | Michigan DPC Directory 🩺
 
-> A multi-state, consumer-friendly directory and educational resource for Direct Primary Care.
+A high-performance, consumer-friendly directory and educational resource for **Direct Primary Care (DPC)**. This platform connects patients with affordable, transparent, and membership-based healthcare providers, starting with a focus on Michigan.
 
----
+## 🚀 Vision
+To decentralize the primary care search experience, providing patients with clear pricing, doctor accessibility, and HSA-compliance verification without the clutter of traditional insurance-based directories.
 
-## 🎯 Goal
-To provide a scalable, high-trust platform that connects patients with Direct Primary Care (DPC) providers, starting with a regional focus and expanding nationwide. The platform emphasizes transparency, HSA compliance visibility, and a "Medical-Modern" aesthetic.
+## 🛠️ Tech Stack
+- **Frontend**: React 19 + TypeScript
+- **Build Tool**: Vite 6
+- **Styling**: Tailwind CSS (v4 integration pending; currently via polished CDN patterns)
+- **Data Strategy**: Modular JSON-driven architecture (`/data/[state_code].json`)
+
+## 🏁 Getting Started
+1. **Clone & Install**:
+   ```bash
+   npm install
+   ```
+2. **Development**:
+   ```bash
+   npm run dev
+   ```
+3. **Build**:
+   ```bash
+   npm run build
+   ```
+
+## ⚖️ 2026 OBBBA Compliance (HSA Eligibility)
+Every listing is verified against the 2026 HSA-Eligibility thresholds:
+- Individual Membership ≤ $150/mo
+- Family Membership ≤ $300/mo
+- $0 Visit-based co-pays
 
 ## 📂 Project Structure
-This project follows the **Anti-Gravity** workspace standard:
-* `data/` — JSON-driven architecture for state-specific clinic data (e.g., `mi-clinics.json`).
-* `docs/` — Planning, architecture, and keyword lists.
-* `execution/` — Automation scripts and deterministic actions.
-* `directives/` — Project-specific SOPs and guidance.
-* `.tmp/` — Temporary agent artifacts (Git-ignored).
+- `/data`: Source of truth for DPC practice listings.
+- `/pages`: Core views including Home, Directory, and Practice Details.
+- `/components`: Premium UI elements following the "Medical-Modern" design system.
+- `/docs`: Architectural decisions and implementation plans.
 
-## 🚀 Key Features
-* **Modular Data Strategy**: State-specific JSON data files allow for easy scaling without architectural changes.
-* **HSA Compliance Logic**: Automated verification of pricing thresholds to display "HSA-Compliant" badges.
-* **Mobile-First Design**: Optimized for one-handed navigation and responsive grid layouts.
-
-## 🛡️ Content & SEO Boundary
-This project adheres to strict SEO/GEO content preservation rules. Marketing copy and keyword-optimized text blocks are immutable assets and must not be modified during code refactoring without explicit intent.
-
-## ⚖️ License
-Copyright (C) 2026 Seven
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-See the included LICENSE file for the full text of the GNU GPLv3.
+## 📄 License
+Copyright (C) 2026 Seven. Licensed under the GNU General Public License v3.0.
