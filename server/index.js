@@ -25,9 +25,25 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 app.use(cors());
 
 // --- Static Files Serving ---
-// Serve static files from the React build directory
+// Serve static files from the React build directory with proper MIME types
 const distPath = path.join(__dirname, '../dist');
-app.use(express.static(distPath));
+
+// Custom middleware to set correct MIME types for JavaScript files
+app.use((req, res, next) => {
+    if (req.url.endsWith('.js') || req.url.endsWith('.mjs')) {
+        res.setHeader('Content-Type', 'application/javascript');
+    }
+    next();
+});
+
+app.use(express.static(distPath, {
+    setHeaders: (res, path) => {
+        if (path.endsWith('.js') || path.endsWith('.mjs')) {
+            res.setHeader('Content-Type', 'application/javascript');
+        }
+    }
+}));
+
 console.log(`[SERVER] Serving static files from: ${distPath}`);
 
 // --- Webhook Endpoint (Must be before express.json) ---
