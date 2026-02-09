@@ -1,34 +1,23 @@
-
-import express from 'express';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import Stripe from 'stripe';
-import { Resend } from 'resend';
-import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
-import path from 'path';
-import { fileURLToPath } from 'url';
+const express = require('express');
+const path = require('path');
+const dotenv = require('dotenv');
+const Stripe = require('stripe');
+const { Resend } = require('resend');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const cors = require('cors');
 
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 4004;
 
-// Get __dirname equivalent for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 // Initialize Stripe and Resend
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-app.use(cors());
-
-// --- Static Files Serving ---
-// Serve static files from the React build directory with proper MIME types
-const distPath = path.join(__dirname, '../dist');
-
-// Custom middleware to set correct MIME types for JavaScript files
+// ========== 1. MIME TYPE FIX (MUST BE FIRST) ==========
+// Catch all .js and .mjs requests before they hit static middleware
 app.use((req, res, next) => {
     if (req.url.endsWith('.js') || req.url.endsWith('.mjs')) {
         res.setHeader('Content-Type', 'application/javascript');
@@ -36,15 +25,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static(distPath, {
-    setHeaders: (res, path) => {
-        if (path.endsWith('.js') || path.endsWith('.mjs')) {
-            res.setHeader('Content-Type', 'application/javascript');
-        }
-    }
-}));
+app.use(cors());
 
-console.log(`[SERVER] Serving static files from: ${distPath}`);
+// ========== 2. API ROUTES (BEFORE STATIC FILES) ==========
 
 // --- Webhook Endpoint (Must be before express.json) ---
 app.post('/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
@@ -342,7 +325,7 @@ app.get('/api/provider/:id/subscription', async (req, res) => {
     });
 });
 
-// --- Contact Form Endpoint ---
+// --- 7. Contact Form ---
 app.post('/api/contact', async (req, res) => {
     const { name, email, subject, message } = req.body;
 
@@ -399,20 +382,30 @@ app.get('/api/create-checkout-session', (req, res) => {
     });
 });
 
-// --- Catch-all route for React Router (SPA support) ---
-// This must be after all API routes
+// ========== 3. STATIC FILES ==========
+const distPath = path.join(__dirname, '../dist');
+console.log('[SERVER] Serving static files from:', distPath);
+
+app.use(express.static(distPath, {
+    setHeaders: (res, filePath) => {
+        // Double-check JS MIME types
+        if (filePath.endsWith('.js') || filePath.endsWith('.mjs')) {
+            res.setHeader('Content-Type', 'application/javascript');
+        }
+    }
+}));
+
+// ========== 4. SPA CATCH-ALL (MUST BE LAST) ==========
 app.get('*', (req, res) => {
-    // Don't serve index.html for API routes
     if (req.path.startsWith('/api/')) {
         return res.status(404).json({ error: 'API endpoint not found' });
     }
     res.sendFile(path.join(distPath, 'index.html'));
 });
 
+// ========== 5. START SERVER ==========
 app.listen(port, () => {
     console.log(`[SERVER] Server running on port ${port}`);
     console.log(`[SERVER] API available at http://localhost:${port}/api`);
     console.log(`[SERVER] Frontend available at http://localhost:${port}`);
 });
-
-// Force restart for syntax check
