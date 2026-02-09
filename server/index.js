@@ -16,6 +16,24 @@ const port = process.env.PORT || 4004;
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// ========== DEBUG: Check dist folder ==========
+const fs = require('fs');
+const distPath = path.join(__dirname, '../dist');
+
+console.log('=== DEBUG ===');
+console.log('__dirname:', __dirname);
+console.log('distPath:', distPath);
+console.log('dist exists:', fs.existsSync(distPath));
+if (fs.existsSync(distPath)) {
+    console.log('dist contents:', fs.readdirSync(distPath));
+} else {
+    console.log('ERROR: dist folder does not exist!');
+    console.log('Current directory contents:', fs.readdirSync(__dirname));
+    console.log('Parent directory contents:', fs.readdirSync(path.join(__dirname, '..')));
+}
+console.log('=============');
+// ========== END DEBUG ==========
+
 // ========== 1. MIME TYPE FIX (MUST BE FIRST) ==========
 // Catch all .js and .mjs requests before they hit static middleware
 app.use((req, res, next) => {
@@ -383,7 +401,7 @@ app.get('/api/create-checkout-session', (req, res) => {
 });
 
 // ========== 3. STATIC FILES ==========
-const distPath = path.join(__dirname, '../dist');
+// distPath already declared in debug section above
 console.log('[SERVER] Serving static files from:', distPath);
 
 app.use(express.static(distPath, {
