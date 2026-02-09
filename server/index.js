@@ -6,17 +6,29 @@ import Stripe from 'stripe';
 import { Resend } from 'resend';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 4004;
 
+// Get __dirname equivalent for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 // Initialize Stripe and Resend
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.use(cors());
+
+// --- Static Files Serving ---
+// Serve static files from the React build directory
+const distPath = path.join(__dirname, '../dist');
+app.use(express.static(distPath));
+console.log(`[SERVER] Serving static files from: ${distPath}`);
 
 // --- Webhook Endpoint (Must be before express.json) ---
 app.post('/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
@@ -371,8 +383,20 @@ app.get('/api/create-checkout-session', (req, res) => {
     });
 });
 
+// --- Catch-all route for React Router (SPA support) ---
+// This must be after all API routes
+app.get('*', (req, res) => {
+    // Don't serve index.html for API routes
+    if (req.path.startsWith('/api/')) {
+        return res.status(404).json({ error: 'API endpoint not found' });
+    }
+    res.sendFile(path.join(distPath, 'index.html'));
+});
+
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`[SERVER] Server running on port ${port}`);
+    console.log(`[SERVER] API available at http://localhost:${port}/api`);
+    console.log(`[SERVER] Frontend available at http://localhost:${port}`);
 });
 
 // Force restart for syntax check
