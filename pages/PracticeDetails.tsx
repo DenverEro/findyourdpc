@@ -42,7 +42,7 @@ const PracticeDetails: React.FC<PracticeDetailsProps> = ({ practices, favorites,
       setReviews(MOCK_REVIEWS.filter(r => r.practiceId === found!.id));
 
       // 2. Fetch overrides from backend (if any)
-      fetch(`http://localhost:4004/api/provider/${found.id}`)
+      fetch(`/api/provider/${found.id}`)
         .then(res => res.json())
         .then(overrides => {
           if (overrides && Object.keys(overrides).length > 0) {

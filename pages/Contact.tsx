@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     setIsLoading(true);
     
     try {
-      const response = await fetch('http://localhost:4004/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

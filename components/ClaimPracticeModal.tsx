@@ -27,7 +27,7 @@ const ClaimPracticeModal: React.FC<ClaimPracticeModalProps> = ({ practice, isOpe
         setIsLoading(true);
         setError(null);
         try {
-            const response = await fetch(`http://localhost:4004/api/verify-npi/${npiNumber}`);
+            const response = await fetch(`/api/verify-npi/${npiNumber}`);
             const data = await response.json();
 
             if (!response.ok) {
@@ -35,7 +35,7 @@ const ClaimPracticeModal: React.FC<ClaimPracticeModalProps> = ({ practice, isOpe
             }
 
             // Step: Send verification code automatically after NPI check
-            await fetch('http://localhost:4004/api/send-code', {
+            await fetch('/api/send-code', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, clinicName: practice.name })
@@ -54,7 +54,7 @@ const ClaimPracticeModal: React.FC<ClaimPracticeModalProps> = ({ practice, isOpe
         setIsLoading(true);
         setError(null);
         try {
-            const response = await fetch('http://localhost:4004/api/verify-code', {
+            const response = await fetch('/api/verify-code', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, code: verificationCode })
@@ -80,7 +80,7 @@ const ClaimPracticeModal: React.FC<ClaimPracticeModalProps> = ({ practice, isOpe
         setIsLoading(true);
         setError(null);
         try {
-            const res = await fetch('http://localhost:4004/api/register', {
+            const res = await fetch('/api/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password, practiceId: practice.id })
@@ -102,7 +102,7 @@ const ClaimPracticeModal: React.FC<ClaimPracticeModalProps> = ({ practice, isOpe
     const handleCheckout = async () => {
         setIsLoading(true);
         setError(null);
-        const apiUrl = 'http://localhost:4004/api/create-checkout-session';
+        const apiUrl = '/api/create-checkout-session';
         console.log(`[FRONTEND] Initiating checkout at ${apiUrl} using POST`);
 
         try {

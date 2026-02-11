@@ -43,7 +43,7 @@ const ProviderPortal: React.FC = () => {
                 // Verify session with backend (security check)
                 // Only if we don't have a JWT token yet or usage legacy session
                 if (!token && sessionId && sessionId !== 'authenticated_via_jwt') {
-                    const verifyRes = await fetch('http://localhost:4004/api/verify-checkout-session', {
+                    const verifyRes = await fetch('/api/verify-checkout-session', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ sessionId })
@@ -67,7 +67,7 @@ const ProviderPortal: React.FC = () => {
                 setPractice(basePractice);
 
                 // Load overrides from backend
-                const overrideRes = await fetch(`http://localhost:4004/api/provider/${practiceId}`);
+                const overrideRes = await fetch(`/api/provider/${practiceId}`);
                 const overrideData = await overrideRes.json();
                 setOverrides(overrideData);
 
@@ -92,7 +92,7 @@ const ProviderPortal: React.FC = () => {
         setSaveMessage('');
 
         try {
-            await fetch(`http://localhost:4004/api/provider/${practice.id}`, {
+            await fetch(`/api/provider/${practice.id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(overrides)

@@ -17,7 +17,7 @@ const ClaimSuccess: React.FC = () => {
 
         const verifySession = async () => {
             try {
-                const response = await fetch('http://localhost:4004/api/verify-checkout-session', {
+                const response = await fetch('/api/verify-checkout-session', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ sessionId })
