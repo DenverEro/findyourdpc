@@ -415,6 +415,10 @@ app.use(express.static(distPath, {
 
 // ========== 4. SPA CATCH-ALL (MUST BE LAST) ==========
 app.get('*', (req, res) => {
+    // Don't serve index.html for static asset requests (prevents MIME type errors)
+    if (req.path.match(/\.(js|css|png|jpg|svg|ico|woff2?|ttf|eot|json|map)$/)) {
+        return res.status(404).json({ error: 'Asset not found' });
+    }
     if (req.path.startsWith('/api/')) {
         return res.status(404).json({ error: 'API endpoint not found' });
     }
