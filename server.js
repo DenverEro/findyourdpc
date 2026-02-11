@@ -18,7 +18,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 // ========== DEBUG: Check dist folder ==========
 const fs = require('fs');
-const distPath = path.join(__dirname, '../dist');
+const distPath = path.join(process.cwd(), 'dist');
 
 console.log('=== DEBUG ===');
 console.log('__dirname:', __dirname);

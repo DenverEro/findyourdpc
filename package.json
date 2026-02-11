@@ -8,9 +8,16 @@
     "build": "vite build",
     "preview": "vite preview",
     "postinstall": "npm run build",
-    "start": "node server/index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5",
+    "stripe": "^17.2.0",
+    "resend": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
     "@types/dompurify": "^3.0.5",
     "dompurify": "^3.3.1",
     "react": "^19.2.4",
