@@ -217,17 +217,3 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
   console.log(`[SERVER] Running on port ${port}`);
 });
-EOF
-```
-
-**Push:**
-```
-git add server.js package.json
-git commit -m "Add CJS server.js for Hostinger"
-git push origin main
-```
-
-**Hostinger:** Entry: server.js, Node 20.x, redeploy.
-
-Attach this server.js to email. 🚀<|control12|><xai:function_call name="message">
-<parameter name="action">send
