@@ -2,26 +2,34 @@
   "name": "mock-up-for-findyourdpc.com",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "postinstall": "npm run build",
-    "start": "node server/index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@types/dompurify": "^3.0.5",
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5",
+    "stripe": "^17.2.0",
+    "resend": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
     "dompurify": "^3.3.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-ga4": "^2.1.0",
-    "react-router-dom": "^7.13.0"
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/node": "^20.14.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.8"
   }
 }
